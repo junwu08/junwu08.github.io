@@ -1,22 +1,19 @@
-# Jun Wu Academic Website
+# Jun Wu Academic Homepage
 
-This is a static academic personal website generated from the provided CV.
+This is a static academic homepage for GitHub Pages.
 
 ## Files
 
-- `index.html`: homepage
-- `publications.html`: full publication list
-- `styles.css`: site stylesheet
+Upload the following files and folder directly to the root of your `junwu08.github.io` repository:
 
-## How to deploy with GitHub Pages
+- `index.html`
+- `styles.css`
+- `script.js`
+- `README.md`
+- `assets/profile.jpg`
 
-1. Create a GitHub repository named `yourusername.github.io`.
-2. Upload these files to the root directory of the repository.
-3. In GitHub, go to Settings → Pages and set the source to the main branch root directory if needed.
-4. Your website will be available at `https://yourusername.github.io/`.
+Do not upload the outer folder itself. The `index.html` file must be in the repository root.
 
-## Suggested edits before publishing
+## Deployment
 
-- Add a professional headshot if desired.
-- Add DOI / IEEE Xplore / arXiv links for each paper.
-- Consider adding a sanitized PDF CV without birthday, gender, GPA, or detailed address.
+GitHub Pages should automatically deploy from the `main` branch and `/ (root)` folder.
