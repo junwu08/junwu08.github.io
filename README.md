@@ -10,14 +10,14 @@ The layout follows [Boyu Ning's homepage](https://boyuning.github.io/): top navi
 - 2 additional first-author manuscripts listed separately as under review; they are not included in the published-paper count or BibTeX export.
 - Research introductions, DOI/publisher links, available arXiv/PDF links, and expandable BibTeX with a copy button.
 - Original paper figures for 8 first-author journal articles and 1 ICASSP paper. Two other journal entries use original diagrams explicitly labeled `Conceptual illustration`.
-- Research interests, dated citation metrics, education and GPAs, visiting appointments, awards, tutorials, and academic service.
+- Research interests, education and GPAs, visiting appointments, awards, tutorials, and academic service.
 - Responsive navigation, keyboard focus indicators, a back-to-top link, and support for legacy links.
 
 ## Content sources
 
 Publication metadata was checked against ORCID, Crossref, arXiv, and publisher records on **2026-10-15**. Formal publication years and early-access dates are kept distinct; a DOI's year is not treated as the final publication year.
 
-Personal information was reconciled with the owner-provided CV on **2026-10-15**. Citation metrics are explicitly dated September 2026: 988 citations, h-index 15, and i10-index 18. Awards, service appointments, GPAs, and submission statuses are supplied by the owner rather than independently certified. The owner specifically confirmed that the IEEE Transactions on Mobile Computing Best Paper Award was received in **2025** for **Co-Design of Sensing, Communications, and Control for Low-Altitude Wireless Networks**.
+Personal information was reconciled with the owner-provided CV on **2026-10-15**. Awards, service appointments, GPAs, and submission statuses are supplied by the owner rather than independently certified. The owner specifically confirmed that the IEEE Transactions on Mobile Computing Best Paper Award was received in **2025** for **Co-Design of Sensing, Communications, and Control for Low-Altitude Wireless Networks**.
 
 The two additional submissions remain labeled `Under review`. Formation Control for CRLB-Optimal Cooperative Sensing in Low-Altitude Wireless Networks retains its verified published record, which supersedes the CV's earlier submission status. ESI highlights are retained from the original website and CV; no independent ESI database verification is claimed. The source CV is not hosted in this repository.
 
@@ -25,7 +25,7 @@ The two additional submissions remain labeled `Under review`. Formation Control 
 
 ## Editing
 
-1. Edit personal information, research metrics, experience, news, awards, and submissions in `templates/index.html`.
+1. Edit personal information, experience, news, awards, and submissions in `templates/index.html`.
 2. Update published-paper metadata in `data/publications.json`; place paper thumbnails in `assets/papers/`.
 3. Run `node scripts/build.mjs` from the repository root to regenerate `index.html` and `assets/publications.bib`.
 4. Run `node scripts/check.mjs` to check internal links, assets, authorship groups, and bibliography completeness.
