@@ -1,37 +1,45 @@
 # Jun Wu Academic Homepage
 
-个人学术主页：[junwu08.github.io](https://junwu08.github.io/)。
+English-language academic homepage: [junwu08.github.io](https://junwu08.github.io/).
 
-沿用 [Boyu Ning 的主页](https://boyuning.github.io/) 的 AcadHomepage 排版：顶部导航、左侧个人资料、单页履历、左图右文的一作论文展示。保留原站头像、个人经历、获奖与学术服务信息。
+The layout follows [Boyu Ning's homepage](https://boyuning.github.io/): top navigation, a profile sidebar, a single-page CV, and illustrated first-author publication entries. Jun Wu's original portrait and academic information are retained.
 
-## 内容
+## Content
 
-- 10 篇一作期刊、4 篇一作会议、14 篇合作期刊、4 篇合作会议。
-- 一作论文介绍、DOI/出版商入口、可用的 arXiv/PDF 链接、可展开及复制的 BibTeX。
-- 8 张一作期刊原论文图、1 张 ICASSP 原论文图；另外两篇期刊使用明确标注 `Conceptual illustration` 的原创概念图。
-- 自适应手机菜单、键盘焦点、返回顶部、旧链接兼容。
+- 10 first-author journal articles, 4 first-author conference papers, 14 coauthored journal articles, and 4 coauthored conference papers.
+- 2 additional first-author manuscripts listed separately as under review; they are not included in the published-paper count or BibTeX export.
+- Research introductions, DOI/publisher links, available arXiv/PDF links, and expandable BibTeX with a copy button.
+- Original paper figures for 8 first-author journal articles and 1 ICASSP paper. Two other journal entries use original diagrams explicitly labeled `Conceptual illustration`.
+- Research interests, dated citation metrics, education and GPAs, visiting appointments, awards, tutorials, and academic service.
+- Responsive navigation, keyboard focus indicators, a back-to-top link, and support for legacy links.
 
-论文元数据依据 ORCID、Crossref、arXiv 和出版商资料核对，核对日期为 **2026-10-15**。个人经历、荣誉和 ESI 标识沿用用户原站，不代表本次独立核验了获奖或 ESI 数据库。
+## Content sources
 
-`data/publications.json` 保存每篇论文的来源、核对日期与插图出处。`summary` 为根据摘要改写的研究介绍，页面标为 `Abstract (summary)`；三个未取得原摘要的会议条目仅展示题名所支持的 `Research topic`，未补写未经证实的方法或结果。`early access` 与正式卷期信息分别呈现，不将 DOI 年份直接当作正式出版年份。
+Publication metadata was checked against ORCID, Crossref, arXiv, and publisher records on **2026-10-15**. Formal publication years and early-access dates are kept distinct; a DOI's year is not treated as the final publication year.
 
-## 修改方法
+Personal information was reconciled with the owner-provided CV on **2026-10-15**. Citation metrics are explicitly dated September 2026: 988 citations, h-index 15, and i10-index 18. Awards, service appointments, GPAs, and submission statuses are supplied by the owner rather than independently certified. The owner specifically confirmed that the IEEE Transactions on Mobile Computing Best Paper Award was received in **2025** for **Co-Design of Sensing, Communications, and Control for Low-Altitude Wireless Networks**.
 
-1. 在 `templates/index.html` 修改个人资料、经历、新闻和荣誉。
-2. 在 `data/publications.json` 更新论文信息，插图放在 `assets/papers/`。
-3. 在仓库目录运行 `node scripts/build.mjs`，生成 `index.html` 和 `assets/publications.bib`。
-4. 运行 `node scripts/check.mjs` 检查内部链接、资源、作者分类和引用完整性。
+The two additional submissions remain labeled `Under review`. Formation Control for CRLB-Optimal Cooperative Sensing in Low-Altitude Wireless Networks retains its verified published record, which supersedes the CV's earlier submission status. ESI highlights are retained from the original website and CV; no independent ESI database verification is claimed. The source CV is not hosted in this repository.
 
-不需要安装依赖。最终网页为纯静态 HTML/CSS/JavaScript，禁用 JavaScript 后论文与摘要仍可阅读，主要导航仍然可用。部署时不需要服务器端运行 Node.js。
+`data/publications.json` stores per-paper sources, verification dates, and figure attribution. Research introductions are paraphrases labeled `Abstract (summary)`. Three conference entries without an accessible original abstract display only a title-supported `Research topic`.
+
+## Editing
+
+1. Edit personal information, research metrics, experience, news, awards, and submissions in `templates/index.html`.
+2. Update published-paper metadata in `data/publications.json`; place paper thumbnails in `assets/papers/`.
+3. Run `node scripts/build.mjs` from the repository root to regenerate `index.html` and `assets/publications.bib`.
+4. Run `node scripts/check.mjs` to check internal links, assets, authorship groups, and bibliography completeness.
+
+No dependencies need to be installed. The deployed website is static HTML, CSS, and JavaScript. Publications, abstracts, and primary navigation remain available without JavaScript. Node.js is only needed when regenerating the static files.
 
 ## GitHub Pages
 
-使用 `main` 分支的根目录发布。`index.html` 必须位于仓库根目录。`.nojekyll` 防止静态文件被 Jekyll 忽略。
+Publish from the root of the `main` branch. Keep `index.html` at the repository root. `.nojekyll` prevents Jekyll from excluding static assets.
 
-旧的 `publications.html` 自动转到主页论文区域；`#education`、`#publications`、`#awards` 等旧锚点由脚本兼容。
+`publications.html` redirects to the homepage's publications section. The script preserves older anchors such as `#education`, `#publications`, and `#awards`.
 
-## 版式与素材来源
+## Layout and image attribution
 
-`assets/css/reference-theme.css` 来自 [boyuning/boyuning.github.io](https://github.com/boyuning/boyuning.github.io) 当前站点的已编译样式，保留其 MIT 许可于 `LICENSE-THEME`，上游为 AcadHomepage / Minimal Mistakes。`styles.css` 提供本网站的导航、可访问性与移动端适配。未使用参考作者的照片、论文图片或个人履历。
+`assets/css/reference-theme.css` is adapted from the compiled stylesheet of [boyuning/boyuning.github.io](https://github.com/boyuning/boyuning.github.io), based on AcadHomepage / Minimal Mistakes. Its MIT license is retained in `LICENSE-THEME`. `styles.css` supplies this site's navigation, accessibility, and mobile adaptations. The reference author's portrait, publication figures, and biography are not reused.
 
-论文原图来自本人的 arXiv 投稿，逐图链接见 `data/publications.json`；本网站只保存用于展示的缩略图与必要署名，不托管出版商全文。概念图展示研究场景，不是原论文实验结果图。
+Paper figures come from the author's arXiv submissions; source links are recorded in `data/publications.json`. Only display thumbnails are hosted, not publisher full texts. Conceptual illustrations depict research scenarios, not experimental results.

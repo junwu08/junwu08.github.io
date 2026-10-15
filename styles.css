@@ -24,6 +24,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .interest-list { margin: 0; padding: 0 0 0 30px; }
 .interest-list li { margin: 7.5px 0; }
 .collaboration-line { margin-top: 0 !important; }
+.research-metrics { margin: 15px 0 !important; }
 .experience-list li, .news-list li { margin-bottom: 10px; }
 .secondary-line { color: #5d6368; }
 .honors-list li { margin-bottom: 18px; }
@@ -58,7 +59,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .copy-bibtex:hover { border-color: #52adc8; background: #f0f6f8; }
 .paper-highlight { color: #a51c30; margin-bottom: .4em !important; }
 .category-divider { border-top: 1px solid #f2f3f3; padding-top: 1em; }
-.collaborated-list li { margin-bottom: 14px; }
+.collaborated-list li { margin-bottom: 14px; scroll-margin-top: 76px; }
 .venue-tag { display: inline; padding: 2px 4px; background: #f3f3f3; font-size: .88em; color: #494e52; }
 .publication-note { margin-top: 24px !important; color: #626a70; }
 .site-footer { border-top: 1px solid #f2f3f3; padding: 20px 0; margin-top: 40px; color: #7a8288; font-size: .85em; }

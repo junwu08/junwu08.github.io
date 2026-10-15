@@ -56,7 +56,7 @@ function featured(p, number) {
   </div>`;
 }
 function compact(p) {
-  return `<li><span class="venue-tag">${escape(p.shortVenue)} ${p.year}</span> ${authorText(p.authors, true)}, “${link(p.url || `https://doi.org/${p.doi}`, escape(p.title))},” ${bibliographicTail(p)}.${p.highlight ? ` <strong class="paper-highlight">${escape(p.highlight)}</strong>` : ''}</li>`;
+  return `<li id="paper-${escape(p.id)}"><span class="venue-tag">${escape(p.shortVenue)} ${p.year}</span> ${authorText(p.authors, true)}, “${link(p.url || `https://doi.org/${p.doi}`, escape(p.title))},” ${bibliographicTail(p)}.${p.highlight ? ` <strong class="paper-highlight">${escape(p.highlight)}</strong>` : ''}</li>`;
 }
 const journalOrder = ['formation-control','lawns-swipt','multifunctional-lawns','lawn-survey','dual-functional-lawn','sdr-otfs-isac','aerial-covert','minimum-ber','uav-isac-security','sensing-communication-interplay'];
 const journals = papers.filter(p => p.firstAuthor && p.type === 'journal').sort((a,b) => journalOrder.indexOf(a.id)-journalOrder.indexOf(b.id));
