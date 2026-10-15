@@ -1,452 +1,436 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Jun Wu</title>
-  <meta
-    name="description"
-    content="Academic personal website of Jun Wu, Ph.D. in wireless communications and signal processing."
-  />
-
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jun Wu's academic homepage. Integrated sensing and communication, OTFS, UAV networks, and control-aware low-altitude wireless networks.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Jun Wu — Academic Homepage">
+  <meta property="og:description" content="Integrated sensing and communication · OTFS · Low-altitude wireless networks">
+  <meta property="og:url" content="https://junwu08.github.io/">
+  <meta property="og:image" content="https://junwu08.github.io/assets/profile.jpg">
+  <link rel="canonical" href="https://junwu08.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/reference-theme.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Jun Wu — Academic Homepage</title>
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <a class="brand" href="#home">Jun Wu</a>
+  <a class="skip-link" href="#about-me">Skip to content</a>
+  <header class="masthead"><div class="masthead__inner-wrap">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="home-link" href="#about-me">Homepage</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-links" hidden><span aria-hidden="true">☰</span> Menu</button>
+      <ul id="main-links" class="main-links">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#-educations">Educations</a></li>
+        <li><a href="#-news">News</a></li>
+        <li><a href="#-honors-and-awards">Honors and Awards</a></li>
+        <li><a href="#-invited-events">Invited Events</a></li>
+        <li><a href="#-publications">Publications</a></li>
+        <li><a href="#-academic-service">Academic Service</a></li>
+      </ul>
+    </nav>
+  </div></header>
 
-      <nav class="nav">
-        <a href="#news">News</a>
-        <a href="#education">Education</a>
-        <a href="#publications">Publications</a>
-        <a href="#service">Service</a>
-        <a href="#awards">Awards</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="page" id="home">
-    <aside class="sidebar">
-      <section class="profile-card">
-        <div class="bio-header">
-          <img class="bio-avatar" src="assets/profile.jpg" alt="Jun Wu" />
-          <div>
-            <h1>Jun Wu</h1>
-            <p class="subtitle">Ph.D.</p>
-          </div>
+  <main id="main">
+    <aside class="sidebar sticky" aria-label="About Jun Wu">
+      <div class="profile_box">
+        <div class="author__avatar"><img src="assets/profile.jpg" alt="Jun Wu" width="175" height="196" fetchpriority="high"></div>
+        <div class="author__content"><h2 class="author__name">Jun Wu</h2><p class="author__bio">Ph.D.<br>Southern University of Science and Technology</p></div>
+        <div class="author__urls-wrapper">
+          <p class="research-bio">My research focuses on integrated sensing and communication (ISAC), OTFS signal processing, low-altitude wireless networks, UAV cooperative sensing, trajectory design, and control-aware wireless resource optimization.</p>
+          <ul class="author__urls">
+            <li>📍 Shenzhen, China</li>
+            <li><a href="mailto:wuj2021@mail.sustech.edu.cn"><span class="link-icon" aria-hidden="true">✉</span>Email</a></li>
+            <li><a href="https://scholar.google.com.hk/citations?user=nFfGfdIAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer"><span class="link-icon" aria-hidden="true">🎓</span>Google Scholar</a></li>
+            <li><a href="https://ieeexplore.ieee.org/author/37089556127" target="_blank" rel="noopener noreferrer"><span class="link-icon ieee-icon" aria-hidden="true">◈</span>IEEE Xplore</a></li>
+            <li><a href="https://orcid.org/0000-0001-9424-1056" target="_blank" rel="noopener noreferrer"><span class="link-icon orcid-icon" aria-hidden="true">iD</span>ORCID</a></li>
+            <li><a href="https://github.com/junwu08" target="_blank" rel="noopener noreferrer"><span class="link-icon" aria-hidden="true">⌘</span>GitHub</a></li>
+          </ul>
         </div>
-
-        <p class="profile-role">
-       
-        </p>
-
-        <p class="profile-bio">
-          I received the Ph.D. degree from Southern University of Science and Technology
-          on June, 2026, under the supervision of Dr. Weijie Yuan. My research focuses
-          on integrated sensing and communication, OTFS-ISAC, and low-altitude wireless networks.
-        </p>
-
-        <div class="affiliation">
-          <strong>Southern University of Science and Technology</strong><br />
-          Shenzhen, Guangdong, China
-        </div>
-
-        <ul class="contact-list">
-          <li>✉️ <a href="mailto:wuj2021@mail.sustech.edu.cn">wuj2021@mail.sustech.edu.cn</a></li>
-          <li>🎓 <a href="https://scholar.google.com.hk/citations?user=nFfGfdIAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Google Scholar</a></li>
-          <li>🌐 <a href="https://junwu08.github.io" target="_blank" rel="noopener">junwu08.github.io</a></li>
-        </ul>
-      </section>
-
-      <section class="side-section">
-        <h3>Research Focus</h3>
-        <ul class="side-list">
-          <li>Integrated sensing and communication, OTFS-ISAC, and low-altitude wireless networks.</li>
-          <li>UAV cooperative sensing, trajectory design, and control-aware wireless resource optimization.</li>
-        </ul>
-      </section>
-
-      <section class="side-section">
-        <h3>Links</h3>
-        <ul class="contact-list compact">
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#awards">Honors and Awards</a></li>
-          <li><a href="#service">Academic Service</a></li>
-        </ul>
-      </section>
+      </div>
     </aside>
-
-    <section class="content">
-      <section class="hero section">
-        <h2>About</h2>
-        <p>
-          Jun Wu received the Ph.D. degree from Southern University of Science and Technology,
-          Shenzhen, China, 2026, under the supervision of Dr. Weijie Yuan.
-          His research interests include integrated sensing and communication, OTFS-assisted
-          sensing and communication, low-altitude wireless networks, non-terrestrial networks,
-          cooperative tracking, trajectory design, and control-aware wireless resource allocation.
-        </p>
-        <p>
-          He has worked on ISAC signal processing, UAV communications, OTFS-ISAC precoding,
-          cooperative sensing, and networked control for low-altitude wireless systems.
-        </p>
+    <article class="page"><div class="page__inner-wrap"><div class="page__content">
+      <section aria-labelledby="about-me">
+        <h1 id="about-me" class="red-heading">About Me</h1>
+        <p>I received my Ph.D. degree from Southern University of Science and Technology (SUSTech, 南方科技大学) in June 2026, under the supervision of Dr. Weijie Yuan. My research is focused on wireless communications and signal processing, particularly the following topics:</p>
+        <div class="soft-panel"><ul class="interest-list">
+          <li>Integrated sensing and communication (ISAC) ☘️</li>
+          <li>OTFS modulation and delay-Doppler signal processing ☘️</li>
+          <li>Low-altitude wireless networks (LAWNs) ☘️</li>
+          <li>UAV cooperative sensing and trajectory design ☘️</li>
+          <li>Control-aware beamforming and wireless resource allocation ☘️</li>
+        </ul></div>
+        <p class="collaboration-line">For <strong>academic collaboration</strong> 🤝, please feel free to contact me at <a href="mailto:wuj2021@mail.sustech.edu.cn">wuj2021@mail.sustech.edu.cn</a> 📩.</p>
+        <h2 class="red-heading">Personal Experience</h2>
+        <div class="soft-panel">
+          <p>I received my <strong>B.E. degree</strong> from Southwest Jiaotong University (西南交通大学), Chengdu, China, in 2021, and my <strong>Ph.D. degree</strong> from Southern University of Science and Technology, Shenzhen, China, in 2026, supervised by <strong>Dr. Weijie Yuan</strong>.</p>
+          <p>From July to September 2023, I was a <strong>Visiting Student</strong> at Xi'an Jiaotong University (西安交通大学), supervised by Prof. Zhiqiang Wei. From June to September 2025, I was a <strong>Visiting Student</strong> at Sungkyunkwan University (成均馆大学), Suwon, South Korea, supervised by Prof. Dong In Kim, IEEE Life Fellow.</p>
+          <p>My work spans ISAC signal processing, OTFS precoding, cooperative sensing, and the joint design of communication and control for UAV networks. My first-author publications appear in <strong>IEEE JSAC</strong>, <strong>IEEE TWC</strong>, <strong>IEEE TMC</strong>, <strong>IEEE TVT</strong>, <strong>IEEE IoT Journal</strong>, <strong>IEEE Wireless Communications</strong>, <strong>China Communications</strong>, and <strong>Chinese Journal of Aeronautics</strong>.</p>
+          <p>I received the <strong>IEEE WCNC Best Paper Award</strong> in 2026, the <strong>Radar Journal Annual Excellent Paper Award</strong> in 2025, the <strong>Chinese National Scholarship</strong> and <strong>BYD Scholarship</strong> in 2025, and the <strong>IEEE TGCN Exemplary Reviewer</strong> recognition in 2022.</p>
+        </div>
       </section>
-
-      <section class="section" id="news">
-        <h2>News</h2>
+      <section aria-labelledby="-educations">
+        <h1 id="-educations">📖 Educations</h1>
+        <ul class="experience-list">
+          <li><em>2021.09 – 2026.06</em>, <strong>Ph.D.</strong>, Southern University of Science and Technology (南方科技大学), Shenzhen, China.<br><span class="secondary-line">Supervisor: Dr. Weijie Yuan.</span></li>
+          <li><em>2017.09 – 2021.06</em>, <strong>B.E.</strong>, Southwest Jiaotong University (西南交通大学), Chengdu, China.</li>
+        </ul>
+        <h2 class="red-heading" id="visiting">🌏 Visiting Appointments</h2>
+        <ul class="experience-list">
+          <li><em>2025.06 – 2025.09</em>, <strong>Visiting Student</strong>, Sungkyunkwan University (成均馆大学), Suwon, South Korea.<br><span class="secondary-line">Supervisor: Prof. Dong In Kim, IEEE Life Fellow.</span></li>
+          <li><em>2023.07 – 2023.09</em>, <strong>Visiting Student</strong>, Xi'an Jiaotong University (西安交通大学), Xi'an, China.<br><span class="secondary-line">Supervisor: Prof. Zhiqiang Wei.</span></li>
+        </ul>
+      </section>
+      <section aria-labelledby="-news">
+        <h1 id="-news">🔥 News</h1>
         <ul class="news-list">
-          <li>
-            <span class="news-date">Jun. 2026</span>
-            <span>Received the Ph.D. degree from Southern University of Science and Technology.</span>
-          </li>
-          <li>
-            <span class="news-date">2026</span>
-            <span>Received the IEEE WCNC Best Paper Award.</span>
-          </li>
-          <li>
-            <span class="news-date">2026</span>
-            <span>Paper on LAWNs and SWIPT was published in IEEE JSAC.</span>
-          </li>
-          <li>
-            <span class="news-date">2026</span>
-            <span>Survey paper on low-altitude wireless networks was published in China Commun.</span>
-          </li>
-          <li>
-            <span class="news-date">2025</span>
-            <span>Visited Sungkyunkwan University, supervised by Prof. Dong In Kim.</span>
-          </li>
-          <li>
-            <span class="news-date">2025</span>
-            <span>Received the Chinese National Scholarship and BYD Scholarship.</span>
-          </li>
-          <li>
-            <span class="news-date">2025</span>
-            <span>Paper on control-aware system design for dual-functional LAWN was published in IEEE JSAC and recognized as an ESI highly-cited paper.</span>
-          </li>
-          <li>
-            <span class="news-date">2024</span>
-            <span>Paper on minimum-BER precoder design for ISAC systems was published in IEEE TWC.</span>
-          </li>
-          <li>
-            <span class="news-date">2023</span>
-            <span>Visited Xi'an Jiaotong University, supervised by Prof. Zhiqiang Wei.</span>
-          </li>
+          <li><em>2026.06</em> — I received my <strong>Ph.D. degree</strong> from Southern University of Science and Technology! 🎓</li>
+          <li><em>2026</em> — Received the <strong>IEEE WCNC Best Paper Award</strong>. 🏆</li>
+          <li><em>2026</em> — Our papers on <a href="https://doi.org/10.1109/JSAC.2026.3701349" target="_blank" rel="noopener noreferrer">SWIPT-enabled LAWNs</a> and <a href="https://doi.org/10.1109/JSAC.2025.3608746" target="_blank" rel="noopener noreferrer">control-aware UAV formations</a> appear in <strong>IEEE JSAC</strong>.</li>
+          <li><em>2026</em> — Our <a href="#paper-lawn-survey">comprehensive survey of low-altitude wireless networks</a> appears in <strong>China Communications</strong>.</li>
+          <li><em>2025</em> — Visited Sungkyunkwan University, working with Prof. Dong In Kim.</li>
+          <li><em>2025</em> — Received the <strong>Chinese National Scholarship</strong> and <strong>BYD Scholarship</strong>. 🎉</li>
+          <li><em>2025</em> — Our <a href="https://doi.org/10.1109/TMC.2025.3581716" target="_blank" rel="noopener noreferrer">SDR-based OTFS-ISAC environment sensing work</a> appears in <strong>IEEE TMC</strong>.</li>
         </ul>
       </section>
-
-      <section class="section" id="education">
-        <h2>Education</h2>
-
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-time">09/2021 – 06/2026</div>
-            <div class="timeline-body">
-              <h3>Southern University of Science and Technology</h3>
-              <p>Ph.D., Shenzhen, China</p>
-              <p>Supervisor: Dr. Weijie Yuan</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-time">09/2017 – 06/2021</div>
-            <div class="timeline-body">
-              <h3>Southwest Jiaotong University</h3>
-              <p>B.E. Degree, Chengdu, China</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="visiting">
-        <h2>Visiting Appointment</h2>
-
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-time">06/2025 – 09/2025</div>
-            <div class="timeline-body">
-              <h3>Sungkyunkwan University</h3>
-              <p>Visiting Student, Suwon, South Korea</p>
-              <p>Supervisor: Prof. Dong In Kim, IEEE Life Fellow</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-time">07/2023 – 09/2023</div>
-            <div class="timeline-body">
-              <h3>Xi'an Jiaotong University</h3>
-              <p>Visiting Student, Xi'an, China</p>
-              <p>Supervisor: Prof. Zhiqiang Wei</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="awards">
-        <h2>Honors and Awards</h2>
-
-        <ul class="award-list">
-          <li><strong>IEEE WCNC Best Paper Award</strong>, 2026</li>
-          <li><strong>Radar Journal Annual Excellent Paper Award</strong>, 2025</li>
-          <li><strong>Chinese National Scholarship</strong>, 2025</li>
-          <li><strong>BYD Scholarship</strong>, 2025</li>
-          <li><strong>IEEE TGCN Exemplary Reviewer</strong>, 2022</li>
+      <section aria-labelledby="-honors-and-awards">
+        <h1 id="-honors-and-awards">🎖️ Honors and Awards</h1>
+        <ul class="honors-list">
+          <li><strong>IEEE WCNC Best Paper Award</strong>, 2026<br><span lang="zh-CN">IEEE 无线通信与网络大会 — 最佳论文奖 🏆</span></li>
+          <li><strong>Radar Journal Annual Excellent Paper Award</strong>, 2025<br><span lang="zh-CN">《雷达学报》年度优秀论文奖 🏆</span></li>
+          <li><strong>Chinese National Scholarship</strong>, 2025<br><span lang="zh-CN">国家奖学金 🎓</span></li>
+          <li><strong>BYD Scholarship</strong>, 2025<br><span lang="zh-CN">比亚迪奖学金 🎓</span></li>
+          <li><strong>IEEE TGCN Exemplary Reviewer</strong>, 2022<br><span lang="zh-CN">IEEE Transactions on Green Communications and Networking — 优秀审稿人 🌟</span></li>
         </ul>
       </section>
-
-      <section class="section" id="publications">
-        <div class="section-heading-row">
-          <h2>Publications</h2>
-
-          <div class="pub-filters">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="first">First Author</button>
-            <button class="filter-btn" data-filter="coauthor">Co-author</button>
-            <button class="filter-btn" data-filter="conference">Conference</button>
-          </div>
-        </div>
-
-        <h3 class="pub-category">First Author Journal Papers</h3>
-
-        <ol class="publication-list">
-          <li class="pub-item first">
-            <span class="authors"><strong>J. Wu</strong>, W. Yuan, Q. Cheng, et al.</span>,
-            <span class="title">Towards Dual-Functional LAWN: Control-Aware System Design for Aerodynamics-Aided UAV Formations</span>,
-            <em>IEEE JSAC</em>, 2025.
-            <span class="note">ESI highly-cited paper.</span>
-          </li>
-
-          <li class="pub-item first">
-            <span class="authors"><strong>J. Wu</strong>, W. Yuan, et al.</span>,
-            <span class="title">LAWNs Meet SWIPT: Beamforming and Power Splitting Optimization for Predictive Control</span>,
-            <em>IEEE JSAC</em>, 2026.
-          </li>
-
-          <li class="pub-item first">
-            <span class="authors"><strong>J. Wu</strong>, W. Yuan, Z. Wei, K. Zhang, F. Liu, and D. W. K. Ng</span>,
-            <span class="title">Low-Complexity Minimum BER Precoder Design for ISAC Systems: A Delay-Doppler Perspective</span>,
-            <em>IEEE TWC</em>, 2024.
-          </li>
-
-          <li class="pub-item first">
-            <span class="authors"><strong>J. Wu</strong>, W. Yuan, and L. Hanzo</span>,
-            <span class="title">When UAVs Meet ISAC: Real-Time Trajectory Design for Secure Communications</span>,
-            <em>IEEE TVT</em>, 2023.
-          </li>
-
-          <li class="pub-item first">
-            <span class="authors"><strong>J. Wu</strong>, Y. Shi, W. Yuan, et al.</span>,
-            <span class="title">SDR-Empowered Environment Sensing Design and Experimental Validation Using OTFS-ISAC Signals</span>,
-            <em>IEEE TMC</em>, 2025.
-          </li>
-
-          <li class="pub-item first">
-            <span class="authors"><strong>J. Wu</strong>, W. Yuan, et al.</span>,
-            <span class="title">Toward Multi-Functional LAWNs with ISAC: Opportunities, Challenges, and the Road Ahead</span>,
-            <em>IEEE Wireless Commun.</em>, 2026.
-          </li>
-
-          <li class="pub-item first">
-            <span class="authors"><strong>J. Wu</strong>, W. Yuan, and L. Bai</span>,
-            <span class="title">On the Interplay Between Sensing and Communications for UAV Trajectory Design</span>,
-            <em>IEEE IoT J.</em>, 2023.
-          </li>
-
-          <li class="pub-item first">
-            <span class="authors"><strong>J. Wu</strong>, W. Yuan, Q. Tao, et al.</span>,
-            <span class="title">Aerial Networked-ISAC Empowered Collaborative Energy-Efficient Covert Communications</span>,
-            <em>Chin. J. Aeronaut.</em>, 2025.
-          </li>
-
-          <li class="pub-item first">
-            <span class="authors"><strong>J. Wu</strong>, et al.</span>,
-            <span class="title">Low-Altitude Wireless Networks: A Comprehensive Survey</span>,
-            <em>China Commun.</em>, 2026.
-          </li>
-
-          <li class="pub-item first">
-            <span class="authors"><strong>J. Wu</strong>, et al.</span>,
-            <span class="title">Formation Control for CRLB-Optimal Cooperative Sensing in Low-Altitude Wireless Networks</span>,
-            submitted to <em>IEEE TVT</em>, under review.
-          </li>
-        </ol>
-
-        <h3 class="pub-category">First Author Conference Papers</h3>
-
-        <ol class="publication-list">
-          <li class="pub-item first conference">
-            <span class="authors"><strong>J. Wu</strong>, et al.</span>,
-            <span class="title">UAV-Based Target Tracking: Integrating Sensing into Communication Signals</span>,
-            <em>IEEE/CIC ICCC Workshops</em>, Foshan, China, 2022.
-          </li>
-
-          <li class="pub-item first conference">
-            <span class="authors"><strong>J. Wu</strong>, W. Yuan, and L. Bai</span>,
-            <span class="title">Multi-UAV Enabled Sensing: Cramér-Rao Bound Optimization</span>,
-            <em>IEEE ICC Workshops</em>, Rome, Italy, 2023.
-          </li>
-
-          <li class="pub-item first conference">
-            <span class="authors"><strong>J. Wu</strong>, W. Yuan, Z. Wei, J. Yan, and D. W. K. Ng</span>,
-            <span class="title">Optimal BER Minimum Precoder Design for OTFS-Based ISAC Systems</span>,
-            <em>ICASSP</em>, Seoul, Korea, 2024.
-            <span class="note">Invited Paper.</span>
-          </li>
-
-          <li class="pub-item first conference">
-            <span class="authors"><strong>J. Wu</strong>, et al.</span>,
-            <span class="title">Control-Driven ISAC Beamforming for Low-Altitude Wireless Networks</span>,
-            <em>IEEE GLOBECOM</em>, Taipei, 2025.
-          </li>
-        </ol>
-
-        <h3 class="pub-category">Co-author Journal Papers</h3>
-
-        <ol class="publication-list">
-          <li class="pub-item coauthor">
-            <span class="authors">H. Jin, <strong>J. Wu</strong>, W. Yuan, et al.</span>,
-            <span class="title">Co-Design of Sensing, Communication, and Control for Multi-UAV Cooperative Networks with Finite Blocklength Transmission</span>,
-            <em>IEEE TMC</em>, 2025.
-          </li>
-
-          <li class="pub-item coauthor">
-            <span class="authors">H. Jin, <strong>J. Wu</strong>, W. Yuan, et al.</span>,
-            <span class="title">Predictive Control Over Low-Altitude Wireless Networks: Joint Trajectory Design and Resource Allocation</span>,
-            <em>IEEE TMC</em>, 2026.
-          </li>
-
-          <li class="pub-item coauthor">
-            <span class="authors">H. Jin, <strong>J. Wu</strong>, W. Yuan, et al.</span>,
-            <span class="title">MPC-Based Path Tracking and Power Allocation for WNCS: An Outage Probability Perspective</span>,
-            <em>IEEE WCL</em>, 2025.
-          </li>
-
-          <li class="pub-item coauthor">
-            <span class="authors">N. Wu, <strong>J. Wu</strong>, W. Yuan, et al.</span>,
-            <span class="title">SAGIN-Oriented Covert Communications: Joint Robust Beamforming and Coverage Optimization</span>,
-            <em>IEEE JSAC</em>, 2025.
-          </li>
-
-          <li class="pub-item coauthor">
-            <span class="authors">K. Zhang, <strong>J. Wu</strong>, F. Dong, S. Lu, X. Li, and W. Yuan</span>,
-            <span class="title">Joint Design of Receiving Filters and Complementary Set of Sequences for ISAC With Sidelobe Level Suppression</span>,
-            <em>IEEE J. Sel. Areas Sensors</em>, 2024.
-          </li>
-
-          <li class="pub-item coauthor">
-            <span class="authors">H. Jin, W. Yuan, <strong>J. Wu</strong>, et al.</span>,
-            <span class="title">Advancing the Control of Low-Altitude Wireless Networks: Architecture, Design Principles, and Future Directions</span>,
-            <em>npj Wireless Technol.</em>, 2026.
-          </li>
-
-          <li class="pub-item coauthor">
-            <span class="authors">D. He, W. Yuan, <strong>J. Wu</strong>, and R. Liu</span>,
-            <span class="title">Ubiquitous UAV Communication Enabled Low-Altitude Economy: Applications, Techniques, and 3GPP's Efforts</span>,
-            <em>IEEE Netw.</em>, 2025.
-            <span class="note">ESI Hot Paper.</span>
-          </li>
-
-          <li class="pub-item coauthor">
-            <span class="authors">Y. Liu, X. Zhang, <strong>J. Wu</strong>, and Q. Cheng</span>,
-            <span class="title">OTFS-Assisted Sensing Adaptive Cruise Control for Highways: A Reinforcement Learning Approach</span>,
-            <em>IEEE OJVT</em>, 2026.
-          </li>
-
-          <li class="pub-item coauthor">
-            <span class="authors">X. Niu, L. Tan, <strong>J. Wu</strong>, W. Yuan, and T. Q. S. Quek</span>,
-            <span class="title">Multimodal-Oriented Interactive Joint Source-Channel Coding for Lightweight Semantic Communication</span>,
-            <em>IEEE TVT</em>, 2025.
-          </li>
-
-          <li class="pub-item coauthor">
-            <span class="authors">X. Zhang, W. Yuan, C. Liu, <strong>J. Wu</strong>, and D. W. K. Ng</span>,
-            <span class="title">Predictive Beamforming for Vehicles With Complex Behaviors in ISAC Systems: A Deep Learning Approach</span>,
-            <em>IEEE JSTSP</em>, 2024.
-          </li>
-
-          <li class="pub-item coauthor">
-            <span class="authors">Z. Li, W. Yuan, B. Li, <strong>J. Wu</strong>, C. You, and F. Meng</span>,
-            <span class="title">Reconfigurable-Intelligent-Surface-Aided OTFS: Transmission Scheme and Channel Estimation</span>,
-            <em>IEEE IoT J.</em>, 2023.
-          </li>
-        </ol>
-
-        <h3 class="pub-category">Co-author Conference Papers</h3>
-
-        <ol class="publication-list">
-          <li class="pub-item coauthor conference">
-            <span class="authors">H. Jin and <strong>J. Wu</strong>, et al.</span>,
-            <span class="title">OTFS-Assisted Wireless Control in UAV Networks with Finite Blocklength Transmission</span>,
-            <em>IEEE WCNC</em>, Milan, Italy, 2025.
-          </li>
-
-          <li class="pub-item coauthor conference">
-            <span class="authors">X. Niu, W. Yuan, L. Tan, and <strong>J. Wu</strong></span>,
-            <span class="title">ISCS: An Interactive Multimodal Semantic Communication Architecture</span>,
-            <em>IEEE/CIC ICCC</em>, Shanghai, China, 2025.
-          </li>
-
-          <li class="pub-item coauthor conference">
-            <span class="authors">Y. Liu, Y. Shi, X. Zhang, <strong>J. Wu</strong>, and S. Yang</span>,
-            <span class="title">Reinforcement Learning-Based Car-Following Control for Autonomous Vehicles with OTFS</span>,
-            <em>IEEE WCNC</em>, Dubai, United Arab Emirates, 2024.
-          </li>
-
-          <li class="pub-item coauthor conference">
-            <span class="authors">X. Zhang, W. Yuan, C. Liu, <strong>J. Wu</strong>, and Z. Li</span>,
-            <span class="title">Deep Learning-Based Cramér-Rao Bound Optimization for Integrated Sensing and Communication in Vehicular Networks</span>,
-            <em>IEEE SPAWC</em>, Shanghai, China, 2023.
-          </li>
-        </ol>
+      <section aria-labelledby="-invited-events">
+        <h1 id="-invited-events">🗓️ Invited Events</h1>
+        <ul class="experience-list"><li><em>2026</em>, <strong>IEEE WCNC Tutorial</strong>: Multi-Layer Non-Terrestrial Networks: From LEO Satellite Constellations to Low-Altitude Wireless Networks.</li></ul>
       </section>
+      <section aria-labelledby="-publications">
+        <h1 id="-publications">📝 Publications</h1>
+        <h2 class="red-heading" id="first-author-journals">🖊️ First-Author Journals:</h2>
+        <div class="paper-box" id="paper-formation-control">
+    <div class="paper-box-image"><div><span class="badge">IEEE TVT</span><a href="assets/papers/formation-control.webp" target="_blank" rel="noopener noreferrer"><img src="assets/papers/formation-control.webp" alt="Fig. 1: The considered LAWN system where a formation is dispatched to sense the target cooperatively." width="497" height="287" loading="lazy" decoding="async"></a></div></div><div class="paper-box-text">
 
-      <section class="section" id="service">
-        <h2>Academic Service</h2>
+      <h3 class="paper-title">[10] <a href="https://ieeexplore.ieee.org/document/11737572/" target="_blank" rel="noopener noreferrer">Formation Control for CRLB-Optimal Cooperative Sensing in Low-Altitude Wireless Networks</a></h3>
 
-        <div class="service-grid">
-          <div class="service-card">
-            <h3>Reviewer</h3>
-            <p>
-              IEEE TWC, IEEE TVT, IEEE Commun. Mag., IEEE JSAC,
-              IEEE Commun. Lett., IEEE TMC.
-            </p>
-          </div>
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Haijia Jin, Nanchi Su, Jinna Li, Haoyuan Pan, Tse-Tin Chan</p>
+      <ul class="paper-details"><li><strong>Abstract</strong> <span class="abstract-note">(summary)</span>:<details class="paper-abstract"><summary>Read more</summary><p>This paper asks which UAV formation geometry gives the most accurate cooperative target localization. Starting from range measurements, it derives a Fisher-information model and minimizes the trace of the position-estimation bound. The analysis relates the optimal arrangement to isotropic horizontal information and a regular polygon, with elevation governed by propagation loss and geometric diversity. A distributed controller then brings UAVs toward this configuration while accommodating formation movement and obstacles. Simulations compare localization bounds and convergence against alternative formations.</p><a href="https://doi.org/10.1109/tvt.2026.3743628" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, H. Jin, N. Su, J. Li, H. Pan, T.-T. Chan, “Formation Control for CRLB-Optimal Cooperative Sensing in Low-Altitude Wireless Networks,” <em>IEEE Transactions on Vehicular Technology</em>, pp. 1–6, early access, 2026. DOI: <a href="https://doi.org/10.1109/tvt.2026.3743628" target="_blank" rel="noopener noreferrer">10.1109/tvt.2026.3743628</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/tvt.2026.3743628" target="_blank" rel="noopener noreferrer">DOI / Publisher</a><a href="https://arxiv.org/abs/2602.23990" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://arxiv.org/pdf/2602.23990" target="_blank" rel="noopener noreferrer">PDF</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-formation-control">@article{wu2026_formation_control,
+  author = {Jun Wu and Haijia Jin and Nanchi Su and Jinna Li and Haoyuan Pan and Tse-Tin Chan},
+  title = {{Formation Control for CRLB-Optimal Cooperative Sensing in Low-Altitude Wireless Networks}},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year = {2026},
+  pages = {1--6},
+  doi = {10.1109/tvt.2026.3743628},
+  url = {https://doi.org/10.1109/tvt.2026.3743628},
+  note = {Early access}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-formation-control" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box" id="paper-lawns-swipt">
+    <div class="paper-box-image"><div><span class="badge">IEEE JSAC</span><a href="assets/papers/lawns-swipt.webp" target="_blank" rel="noopener noreferrer"><img src="assets/papers/lawns-swipt.webp" alt="Fig. 1: The considered SWIPT-LAWN scenario, where the BS simultaneously delivers control information and wireless energy to a fleet of UASs." width="900" height="513" loading="lazy" decoding="async"></a></div></div><div class="paper-box-text">
 
-          <div class="service-card">
-            <h3>Associate Editor</h3>
-            <p>Journal of Advanced Signal Processing.</p>
-          </div>
+      <h3 class="paper-title">[9] <a href="https://ieeexplore.ieee.org/document/11556215/" target="_blank" rel="noopener noreferrer">LAWNs Meet SWIPT: Beamforming and Power Splitting Optimization for Predictive Control</a></h3>
 
-          <div class="service-card">
-            <h3>TPC Member</h3>
-            <p>IEEE ICC, IEEE GLOBECOM, IEEE WCNC, IEEE VTC.</p>
-          </div>
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Wenchao Liu, Weijie Yuan, Nanchi Su</p>
+      <ul class="paper-details"><li><strong>Abstract</strong> <span class="abstract-note">(summary)</span>:<details class="paper-abstract"><summary>Read more</summary><p>A multi-antenna base station sends both control commands and energy to aerial vehicles, which divide received power between information decoding and energy harvesting. The design must maintain accurate flight-path tracking while avoiding moving no-fly zones. Stream-function planning first constructs safe reference paths; model predictive control then determines the control inputs. Beamformers and receiver power-splitting ratios are optimized together using successive convex approximation and semidefinite relaxation. The study analyzes the tightness of the relaxation and evaluates the resulting balance between tracking accuracy and harvested energy.</p><a href="https://doi.org/10.1109/jsac.2026.3701349" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, W. Liu, W. Yuan, N. Su, “LAWNs Meet SWIPT: Beamforming and Power Splitting Optimization for Predictive Control,” <em>IEEE Journal on Selected Areas in Communications</em>, vol. 44, pp. 4968–4981, 2026. DOI: <a href="https://doi.org/10.1109/jsac.2026.3701349" target="_blank" rel="noopener noreferrer">10.1109/jsac.2026.3701349</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/jsac.2026.3701349" target="_blank" rel="noopener noreferrer">DOI / Publisher</a><a href="https://arxiv.org/abs/2606.22534" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://arxiv.org/pdf/2606.22534" target="_blank" rel="noopener noreferrer">PDF</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-lawns-swipt">@article{wu2026_lawns_swipt,
+  author = {Jun Wu and Wenchao Liu and Weijie Yuan and Nanchi Su},
+  title = {{LAWNs Meet SWIPT: Beamforming and Power Splitting Optimization for Predictive Control}},
+  journal = {IEEE Journal on Selected Areas in Communications},
+  year = {2026},
+  volume = {44},
+  pages = {4968--4981},
+  doi = {10.1109/jsac.2026.3701349},
+  url = {https://doi.org/10.1109/jsac.2026.3701349}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-lawns-swipt" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box" id="paper-multifunctional-lawns">
+    <div class="paper-box-image"><div><span class="badge">IEEE WCM</span><a href="assets/papers/multifunctional-lawns.webp" target="_blank" rel="noopener noreferrer"><img src="assets/papers/multifunctional-lawns.webp" alt="Fig. 1: ISAC-enabled LAWN applications, e.g., accident detection, fire detection, logistics, pedestrian awareness, and live streaming in urban environments, providing flexible and efficient service coverage." width="791" height="572" loading="lazy" decoding="async"></a></div></div><div class="paper-box-text">
 
-          <div class="service-card">
-            <h3>Teaching Assistant</h3>
-            <p>Signals and Systems; Signal Detection and Estimation.</p>
-          </div>
+      <h3 class="paper-title">[8] <a href="https://ieeexplore.ieee.org/document/11449571/" target="_blank" rel="noopener noreferrer">Toward Multi-Functional LAWNs With ISAC: Opportunities, Challenges, and the Road Ahead</a></h3>
 
-          <div class="service-card">
-            <h3>Tutorial</h3>
-            <p>
-              Multi-Layer Non-Terrestrial Networks: From LEO Satellite Constellations to
-              Low-Altitude Wireless Networks, IEEE WCNC 2026.
-            </p>
-          </div>
-        </div>
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Weijie Yuan, Xiaoqi Zhang, Yaohuan Yu, Yuanhao Cui, Fan Liu, Geng Sun, Jiacheng Wang, Dusit Niyato, Dong In Kim</p>
+      <ul class="paper-details"><li><strong>Abstract</strong> <span class="abstract-note">(summary)</span>:<details class="paper-abstract"><summary>Read more</summary><p>This article examines how ISAC can support low-altitude networks at both the individual-node and cooperative-network levels. It discusses the gains and trade-offs associated with hierarchical integration, then broadens the architecture to include remote control, edge computation, wireless energy delivery, and language-model-based intelligence. A case study illustrates the benefits of combining these functions. The resulting framework identifies opportunities and open design questions for aerial networks that must support more than data transmission alone.</p><a href="https://doi.org/10.1109/mwc.2026.3672360" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, W. Yuan, X. Zhang, Y. Yu, Y. Cui, F. Liu, G. Sun, J. Wang, D. Niyato, D. I. Kim, “Toward Multi-Functional LAWNs With ISAC: Opportunities, Challenges, and the Road Ahead,” <em>IEEE Wireless Communications</em>, pp. 1–8, early access, 2026. DOI: <a href="https://doi.org/10.1109/mwc.2026.3672360" target="_blank" rel="noopener noreferrer">10.1109/mwc.2026.3672360</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/mwc.2026.3672360" target="_blank" rel="noopener noreferrer">DOI / Publisher</a><a href="https://arxiv.org/abs/2508.17354" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://arxiv.org/pdf/2508.17354" target="_blank" rel="noopener noreferrer">PDF</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-multifunctional-lawns">@article{wu2026_multifunctional_lawns,
+  author = {Jun Wu and Weijie Yuan and Xiaoqi Zhang and Yaohuan Yu and Yuanhao Cui and Fan Liu and Geng Sun and Jiacheng Wang and Dusit Niyato and Dong In Kim},
+  title = {{Toward Multi-Functional LAWNs With ISAC: Opportunities, Challenges, and the Road Ahead}},
+  journal = {IEEE Wireless Communications},
+  year = {2026},
+  pages = {1--8},
+  doi = {10.1109/mwc.2026.3672360},
+  url = {https://doi.org/10.1109/mwc.2026.3672360},
+  note = {Early access}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-multifunctional-lawns" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box" id="paper-lawn-survey">
+    <div class="paper-box-image"><div><span class="badge">China Commun.</span><a href="assets/papers/lawn-survey.webp" target="_blank" rel="noopener noreferrer"><img src="assets/papers/lawn-survey.webp" alt="Figure 1: LAWN-enabled scenarios across rural, urban, and offshore environments with satellites and low-altitude platforms collaboratively providing ubiquitous communication, sensing, and service coverage to diverse applications." width="900" height="635" loading="lazy" decoding="async"></a></div></div><div class="paper-box-text">
+
+      <h3 class="paper-title">[7] <a href="https://ieeexplore.ieee.org/document/11503149/" target="_blank" rel="noopener noreferrer">Low-altitude wireless networks: A comprehensive survey</a></h3>
+
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Yaoqi Yang, Weijie Yuan, Wenchao Liu, Jiacheng Wang, Tianqi Mao, Lin Zhou, Yuanhao Cui, Fan Liu, Geng Sun, Yiyan Ma, Nan Wu, Dezhi Zheng, Jindan Xu, Nan Ma, Zhiyong Feng, Wei Xu, Dusit Niyato, Chau Yuen, Xiaojun Jing, Zhiguo Shi, Bo Ai, Shi Jin, Dong In Kim, Jiangzhou Wang, Ping Zhang, Hao Yin, Jun Zhang</p>
+      <ul class="paper-details"><li><strong>Abstract</strong> <span class="abstract-note">(summary)</span>:<details class="paper-abstract"><summary>Read more</summary><p>This survey treats the low-altitude wireless network as a shared infrastructure for communication, sensing, computation, control, and energy delivery. It reviews network fundamentals and the development of these functions, then examines the metrics needed to evaluate their performance. Privacy and security are considered alongside the practical challenges of organizing three-dimensional airspace and managing aerial traffic. By connecting wireless-system design with airspace operations, the article maps the technical issues that arise when moving from isolated drone links to large-scale low-altitude services.</p><a href="https://doi.org/10.23919/jcc.fa.2025-0429.202603" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, Y. Yang, W. Yuan, W. Liu, J. Wang, T. Mao, L. Zhou, Y. Cui, F. Liu, G. Sun, Y. Ma, N. Wu, D. Zheng, J. Xu, N. Ma, Z. Feng, W. Xu, D. Niyato, C. Yuen, X. Jing, Z. Shi, B. Ai, S. Jin, D. I. Kim, J. Wang, P. Zhang, H. Yin, J. Zhang, “Low-altitude wireless networks: A comprehensive survey,” <em>China Communications</em>, vol. 23, no. 3, pp. 99–141, 2026. DOI: <a href="https://doi.org/10.23919/jcc.fa.2025-0429.202603" target="_blank" rel="noopener noreferrer">10.23919/jcc.fa.2025-0429.202603</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.23919/jcc.fa.2025-0429.202603" target="_blank" rel="noopener noreferrer">DOI / Publisher</a><a href="https://arxiv.org/abs/2509.11607" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://arxiv.org/pdf/2509.11607" target="_blank" rel="noopener noreferrer">PDF</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-lawn-survey">@article{wu2026_lawn_survey,
+  author = {Jun Wu and Yaoqi Yang and Weijie Yuan and Wenchao Liu and Jiacheng Wang and Tianqi Mao and Lin Zhou and Yuanhao Cui and Fan Liu and Geng Sun and Yiyan Ma and Nan Wu and Dezhi Zheng and Jindan Xu and Nan Ma and Zhiyong Feng and Wei Xu and Dusit Niyato and Chau Yuen and Xiaojun Jing and Zhiguo Shi and Bo Ai and Shi Jin and Dong In Kim and Jiangzhou Wang and Ping Zhang and Hao Yin and Jun Zhang},
+  title = {{Low-altitude wireless networks: A comprehensive survey}},
+  journal = {China Communications},
+  year = {2026},
+  volume = {23},
+  number = {3},
+  pages = {99--141},
+  doi = {10.23919/jcc.fa.2025-0429.202603},
+  url = {https://doi.org/10.23919/jcc.fa.2025-0429.202603}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-lawn-survey" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box" id="paper-dual-functional-lawn">
+    <div class="paper-box-image"><div><span class="badge">IEEE JSAC</span><a href="assets/papers/dual-functional-lawn.webp" target="_blank" rel="noopener noreferrer"><img src="assets/papers/dual-functional-lawn.webp" alt="Fig. 1: The considered LAWN includes an ISAC-GBS to continuously monitor the formations and sense the pre-determined target area, providing precise guidance to UAV formations flight." width="900" height="542" loading="lazy" decoding="async"></a></div></div><div class="paper-box-text">
+
+      <h3 class="paper-title">[6] <a href="https://ieeexplore.ieee.org/document/11159297/" target="_blank" rel="noopener noreferrer">Toward Dual-Functional LAWN: Control-Aware System Design for Aerodynamics-Aided UAV Formations</a></h3>
+      <p class="paper-highlight">🚀 ESI Highly Cited Paper</p>
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Weijie Yuan, Qingqing Cheng, Haijia Jin</p>
+      <ul class="paper-details"><li><strong>Abstract</strong> <span class="abstract-note">(summary)</span>:<details class="paper-abstract"><summary>Read more</summary><p>This work connects aerodynamic energy savings with the wireless control of UAV formations. A ground station uses a shared ISAC transmission to guide multiple formations and monitor a target region. A distributed diffusion-LMS procedure lets neighboring UAVs cooperate to form an energy-saving configuration. The beamformer is then designed around the worst control cost, subject to transmit-power and sensing requirements. A combination of successive convex approximation and semidefinite relaxation handles the coupled optimization. Simulations examine how formation geometry and radio-resource design jointly affect energy consumption and control performance.</p><a href="https://doi.org/10.1109/jsac.2025.3608746" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, W. Yuan, Q. Cheng, H. Jin, “Toward Dual-Functional LAWN: Control-Aware System Design for Aerodynamics-Aided UAV Formations,” <em>IEEE Journal on Selected Areas in Communications</em>, vol. 44, pp. 791–804, 2026. DOI: <a href="https://doi.org/10.1109/jsac.2025.3608746" target="_blank" rel="noopener noreferrer">10.1109/jsac.2025.3608746</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/jsac.2025.3608746" target="_blank" rel="noopener noreferrer">DOI / Publisher</a><a href="https://arxiv.org/abs/2507.19910" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://arxiv.org/pdf/2507.19910" target="_blank" rel="noopener noreferrer">PDF</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-dual-functional-lawn">@article{wu2026_dual_functional_lawn,
+  author = {Jun Wu and Weijie Yuan and Qingqing Cheng and Haijia Jin},
+  title = {{Toward Dual-Functional LAWN: Control-Aware System Design for Aerodynamics-Aided UAV Formations}},
+  journal = {IEEE Journal on Selected Areas in Communications},
+  year = {2026},
+  volume = {44},
+  pages = {791--804},
+  doi = {10.1109/jsac.2025.3608746},
+  url = {https://doi.org/10.1109/jsac.2025.3608746}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-dual-functional-lawn" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box" id="paper-sdr-otfs-isac">
+    <div class="paper-box-image"><div><span class="badge">IEEE TMC</span><a href="assets/papers/sdr-otfs-isac.webp" target="_blank" rel="noopener noreferrer"><img src="assets/papers/sdr-otfs-isac.webp" alt="Fig. 6: The environment sensing physical scene built upon the SDR platform with USRP device using OTFS signals." width="900" height="406" loading="lazy" decoding="async"></a></div></div><div class="paper-box-text">
+
+      <h3 class="paper-title">[5] <a href="https://ieeexplore.ieee.org/document/11045558/" target="_blank" rel="noopener noreferrer">SDR-Empowered Environment Sensing Design and Experimental Validation Using OTFS-ISAC Signals</a></h3>
+
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Yuye Shi, Weijie Yuan, Qingqing Cheng, Buyi Li, Xinyuan Wei</p>
+      <ul class="paper-details"><li><strong>Abstract</strong> <span class="abstract-note">(summary)</span>:<details class="paper-abstract"><summary>Read more</summary><p>This work takes OTFS-based environment sensing from signal processing to a physical radio experiment. It combines delay-Doppler channel estimation, target localization, and transmitter-velocity estimation in one framework. Fractional delay and Doppler shifts are included in the channel model, and a three-ellipse localization method turns the estimated channel parameters into spatial information. A software-defined radio testbed built with USRP hardware is used alongside simulations to evaluate the design. The experiments compare localization and velocity-estimation accuracy with benchmark approaches.</p><a href="https://doi.org/10.1109/tmc.2025.3581716" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, Y. Shi, W. Yuan, Q. Cheng, B. Li, X. Wei, “SDR-Empowered Environment Sensing Design and Experimental Validation Using OTFS-ISAC Signals,” <em>IEEE Transactions on Mobile Computing</em>, vol. 24, no. 11, pp. 12252–12263, 2025. DOI: <a href="https://doi.org/10.1109/tmc.2025.3581716" target="_blank" rel="noopener noreferrer">10.1109/tmc.2025.3581716</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/tmc.2025.3581716" target="_blank" rel="noopener noreferrer">DOI / Publisher</a><a href="https://arxiv.org/abs/2507.01427" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://arxiv.org/pdf/2507.01427" target="_blank" rel="noopener noreferrer">PDF</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-sdr-otfs-isac">@article{wu2025_sdr_otfs_isac,
+  author = {Jun Wu and Yuye Shi and Weijie Yuan and Qingqing Cheng and Buyi Li and Xinyuan Wei},
+  title = {{SDR-Empowered Environment Sensing Design and Experimental Validation Using OTFS-ISAC Signals}},
+  journal = {IEEE Transactions on Mobile Computing},
+  year = {2025},
+  volume = {24},
+  number = {11},
+  pages = {12252--12263},
+  doi = {10.1109/tmc.2025.3581716},
+  url = {https://doi.org/10.1109/tmc.2025.3581716}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-sdr-otfs-isac" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box" id="paper-aerial-covert">
+    <div class="paper-box-image"><div><span class="badge">CJA</span><a href="assets/papers/aerial-covert.svg" target="_blank" rel="noopener noreferrer"><img src="assets/papers/aerial-covert.svg" alt="Conceptual illustration of information and jamming UAVs, ground users, and a mobile warden; UKF tracking supports joint optimization of roles, scheduling, power, and trajectories." width="600" height="360" loading="lazy" decoding="async"></a><small class="figure-note">Conceptual illustration</small></div></div><div class="paper-box-text">
+
+      <h3 class="paper-title">[4] <a href="https://linkinghub.elsevier.com/retrieve/pii/S1000936125000573" target="_blank" rel="noopener noreferrer">Aerial-networked ISAC-empowered collaborative energy-efficient covert communications</a></h3>
+
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Weijie Yuan, Qin Tao, Hongjia Huang, Derrick Wing Kwan Ng</p>
+      <ul class="paper-details"><li><strong>Abstract</strong> <span class="abstract-note">(summary)</span>:<details class="paper-abstract"><summary>Read more</summary><p>This study combines cooperative aerial sensing with covert communication. Networked UAVs take either information-transmission or jamming roles, while delay and Doppler measurements help an unscented Kalman filter track a moving warden. The design jointly selects jammers, schedules users, allocates transmit power, and plans UAV trajectories. Its objective is energy-efficient downlink communication subject to covertness and power requirements. The framework shows how sensing information and cooperation between UAVs can inform decisions about when, where, and how to transmit.</p><a href="https://doi.org/10.1016/j.cja.2025.103451" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, W. Yuan, Q. Tao, H. Huang, D. W. K. Ng, “Aerial-networked ISAC-empowered collaborative energy-efficient covert communications,” <em>Chinese Journal of Aeronautics</em>, vol. 38, no. 10, Art. no. 103451, 2025. DOI: <a href="https://doi.org/10.1016/j.cja.2025.103451" target="_blank" rel="noopener noreferrer">10.1016/j.cja.2025.103451</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1016/j.cja.2025.103451" target="_blank" rel="noopener noreferrer">DOI / Publisher</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-aerial-covert">@article{wu2025_aerial_covert,
+  author = {Jun Wu and Weijie Yuan and Qin Tao and Hongjia Huang and Derrick Wing Kwan Ng},
+  title = {{Aerial-networked ISAC-empowered collaborative energy-efficient covert communications}},
+  journal = {Chinese Journal of Aeronautics},
+  year = {2025},
+  volume = {38},
+  number = {10},
+  doi = {10.1016/j.cja.2025.103451},
+  url = {https://doi.org/10.1016/j.cja.2025.103451},
+  note = {Article 103451}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-aerial-covert" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box" id="paper-minimum-ber">
+    <div class="paper-box-image"><div><span class="badge">IEEE TWC</span><a href="assets/papers/minimum-ber.webp" target="_blank" rel="noopener noreferrer"><img src="assets/papers/minimum-ber.webp" alt="Fig. 1: The considered OTFS-based ISAC scenario." width="880" height="405" loading="lazy" decoding="async"></a></div></div><div class="paper-box-text">
+
+      <h3 class="paper-title">[3] <a href="https://ieeexplore.ieee.org/document/10791452/" target="_blank" rel="noopener noreferrer">Low-Complexity Minimum BER Precoder Design for ISAC Systems: A Delay-Doppler Perspective</a></h3>
+
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Weijie Yuan, Zhiqiang Wei, Kecheng Zhang, Fan Liu, Derrick Wing Kwan Ng</p>
+      <ul class="paper-details"><li><strong>Abstract</strong> <span class="abstract-note">(summary)</span>:<details class="paper-abstract"><summary>Read more</summary><p>How should an OTFS transmitter shape its signal when both reliable data delivery and accurate sensing matter? This paper designs a precoder directly in the delay-Doppler domain, taking advantage of the sparse, slowly varying equivalent channel. The objective minimizes a bound on average bit error rate while meeting transmit-power and sensing constraints. Singular value decomposition separates the design into smaller problems, and a dual optimization method provides a low-complexity solution. The analysis includes feasibility conditions and illustrates the trade-offs among sensing quality, communication reliability, and transmission efficiency.</p><a href="https://doi.org/10.1109/twc.2024.3509973" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, W. Yuan, Z. Wei, K. Zhang, F. Liu, D. W. K. Ng, “Low-Complexity Minimum BER Precoder Design for ISAC Systems: A Delay-Doppler Perspective,” <em>IEEE Transactions on Wireless Communications</em>, vol. 24, no. 2, pp. 1526–1540, 2025. DOI: <a href="https://doi.org/10.1109/twc.2024.3509973" target="_blank" rel="noopener noreferrer">10.1109/twc.2024.3509973</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/twc.2024.3509973" target="_blank" rel="noopener noreferrer">DOI / Publisher</a><a href="https://arxiv.org/abs/2410.15646" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://arxiv.org/pdf/2410.15646" target="_blank" rel="noopener noreferrer">PDF</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-minimum-ber">@article{wu2025_minimum_ber,
+  author = {Jun Wu and Weijie Yuan and Zhiqiang Wei and Kecheng Zhang and Fan Liu and Derrick Wing Kwan Ng},
+  title = {{Low-Complexity Minimum BER Precoder Design for ISAC Systems: A Delay-Doppler Perspective}},
+  journal = {IEEE Transactions on Wireless Communications},
+  year = {2025},
+  volume = {24},
+  number = {2},
+  pages = {1526--1540},
+  doi = {10.1109/twc.2024.3509973},
+  url = {https://doi.org/10.1109/twc.2024.3509973}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-minimum-ber" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box" id="paper-uav-isac-security">
+    <div class="paper-box-image"><div><span class="badge">IEEE TVT</span><a href="assets/papers/uav-isac-security.webp" target="_blank" rel="noopener noreferrer"><img src="assets/papers/uav-isac-security.webp" alt="Fig. 1: A UAV-enabled ISAC system." width="361" height="181" loading="lazy" decoding="async"></a></div></div><div class="paper-box-text">
+
+      <h3 class="paper-title">[2] <a href="https://ieeexplore.ieee.org/document/10168298/" target="_blank" rel="noopener noreferrer">When UAVs Meet ISAC: Real-Time Trajectory Design for Secure Communications</a></h3>
+
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Weijie Yuan, Lajos Hanzo</p>
+      <ul class="paper-details"><li><strong>Abstract</strong> <span class="abstract-note">(summary)</span>:<details class="paper-abstract"><summary>Read more</summary><p>This paper uses sensing feedback to guide a UAV that communicates securely with a moving ground user. Echo-delay observations feed an extended Kalman filter, allowing the UAV to estimate and predict the legitimate user’s changing location. The flight trajectory is updated to improve the instantaneous secrecy rate in the presence of an eavesdropper following a known path. An iterative optimizer addresses the resulting non-convex design. Numerical experiments assess tracking accuracy and the balance between useful transmission and information leakage.</p><a href="https://doi.org/10.1109/tvt.2023.3290033" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, W. Yuan, L. Hanzo, “When UAVs Meet ISAC: Real-Time Trajectory Design for Secure Communications,” <em>IEEE Transactions on Vehicular Technology</em>, vol. 72, no. 12, pp. 16766–16771, 2023. DOI: <a href="https://doi.org/10.1109/tvt.2023.3290033" target="_blank" rel="noopener noreferrer">10.1109/tvt.2023.3290033</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/tvt.2023.3290033" target="_blank" rel="noopener noreferrer">DOI / Publisher</a><a href="https://arxiv.org/abs/2306.14140" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://arxiv.org/pdf/2306.14140" target="_blank" rel="noopener noreferrer">PDF</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-uav-isac-security">@article{wu2023_uav_isac_security,
+  author = {Jun Wu and Weijie Yuan and Lajos Hanzo},
+  title = {{When UAVs Meet ISAC: Real-Time Trajectory Design for Secure Communications}},
+  journal = {IEEE Transactions on Vehicular Technology},
+  year = {2023},
+  volume = {72},
+  number = {12},
+  pages = {16766--16771},
+  doi = {10.1109/tvt.2023.3290033},
+  url = {https://doi.org/10.1109/tvt.2023.3290033}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-uav-isac-security" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box" id="paper-sensing-communication-interplay">
+    <div class="paper-box-image"><div><span class="badge">IEEE IoTJ</span><a href="assets/papers/sensing-communication-interplay.svg" target="_blank" rel="noopener noreferrer"><img src="assets/papers/sensing-communication-interplay.svg" alt="Conceptual illustration of multi-UAV ISAC with EKF user tracking and joint trajectory and user association design, balancing communication rate and tracking CRB." width="600" height="360" loading="lazy" decoding="async"></a><small class="figure-note">Conceptual illustration</small></div></div><div class="paper-box-text">
+
+      <h3 class="paper-title">[1] <a href="https://ieeexplore.ieee.org/document/10158322/" target="_blank" rel="noopener noreferrer">On the Interplay Between Sensing and Communications for UAV Trajectory Design</a></h3>
+
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Weijie Yuan, Lin Bai</p>
+      <ul class="paper-details"><li><strong>Abstract</strong> <span class="abstract-note">(summary)</span>:<details class="paper-abstract"><summary>Read more</summary><p>A group of UAVs simultaneously communicates with and senses moving ground users. This work jointly designs flight trajectories and user association, balancing downlink throughput against tracking accuracy. Range information extracted from sensing echoes supports extended-Kalman-filter prediction and tracking. An alternating optimization method, using successive convex approximation, coordinates the trajectory and association decisions under flight, power, and collision-avoidance constraints. The study makes the sensing–communication trade-off explicit through communication-rate and Cramér–Rao-bound objectives.</p><a href="https://doi.org/10.1109/jiot.2023.3287991" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, W. Yuan, L. Bai, “On the Interplay Between Sensing and Communications for UAV Trajectory Design,” <em>IEEE Internet of Things Journal</em>, vol. 10, no. 23, pp. 20383–20395, 2023. DOI: <a href="https://doi.org/10.1109/jiot.2023.3287991" target="_blank" rel="noopener noreferrer">10.1109/jiot.2023.3287991</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/jiot.2023.3287991" target="_blank" rel="noopener noreferrer">DOI / Publisher</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-sensing-communication-interplay">@article{wu2023_sensing_communication_interplay,
+  author = {Jun Wu and Weijie Yuan and Lin Bai},
+  title = {{On the Interplay Between Sensing and Communications for UAV Trajectory Design}},
+  journal = {IEEE Internet of Things Journal},
+  year = {2023},
+  volume = {10},
+  number = {23},
+  pages = {20383--20395},
+  doi = {10.1109/jiot.2023.3287991},
+  url = {https://doi.org/10.1109/jiot.2023.3287991}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-sensing-communication-interplay" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+        <h2 class="red-heading category-divider" id="first-author-conferences">🀄 First-Author Conferences:</h2>
+        <div class="paper-box no-figure" id="paper-publication-14">
+    <div class="paper-box-text">
+      <span class="venue-tag">IEEE GLOBECOM Wkshps</span>
+      <h3 class="paper-title">[4] <a href="https://ieeexplore.ieee.org/document/11590903/" target="_blank" rel="noopener noreferrer">Control-Driven ISAC Beamforming Design for Low-Altitude Wireless Networks</a></h3>
+
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Xiaowen Cao, Qingqing Cheng, Shihang Lu, Shuqiang Xia, Zhongbin Wang</p>
+      <ul class="paper-details"><li><strong>Research topic</strong>:<details class="paper-abstract"><summary>Read more</summary><p>Control-driven beamforming design for integrated sensing and communication in low-altitude wireless networks.</p><a href="https://doi.org/10.1109/gcwkshps68340.2025.11590903" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, X. Cao, Q. Cheng, S. Lu, S. Xia, Z. Wang, “Control-Driven ISAC Beamforming Design for Low-Altitude Wireless Networks,” <em>2025 IEEE Globecom Workshops (GC Wkshps)</em>, pp. 1322–1326, 2025. DOI: <a href="https://doi.org/10.1109/gcwkshps68340.2025.11590903" target="_blank" rel="noopener noreferrer">10.1109/gcwkshps68340.2025.11590903</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/gcwkshps68340.2025.11590903" target="_blank" rel="noopener noreferrer">DOI / Publisher</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-publication-14">@inproceedings{wu2025_publication_14,
+  author = {Jun Wu and Xiaowen Cao and Qingqing Cheng and Shihang Lu and Shuqiang Xia and Zhongbin Wang},
+  title = {{Control-Driven ISAC Beamforming Design for Low-Altitude Wireless Networks}},
+  booktitle = {2025 IEEE Globecom Workshops (GC Wkshps)},
+  year = {2025},
+  pages = {1322--1326},
+  doi = {10.1109/gcwkshps68340.2025.11590903},
+  url = {https://doi.org/10.1109/gcwkshps68340.2025.11590903}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-publication-14" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box" id="paper-publication-13">
+    <div class="paper-box-image"><div><span class="badge">IEEE ICASSP</span><a href="assets/papers/icassp-ber.svg" target="_blank" rel="noopener noreferrer"><img src="assets/papers/icassp-ber.svg" alt="BER versus SNR for the OTFS-ISAC precoder (Fig. 1 from the ICASSP paper)." width="420" height="315" loading="lazy" decoding="async"></a></div></div><div class="paper-box-text">
+
+      <h3 class="paper-title">[3] <a href="https://ieeexplore.ieee.org/document/10446140/" target="_blank" rel="noopener noreferrer">Optimal BER Minimum Precoder Design for OTFS-Based ISAC Systems</a></h3>
+      <p class="paper-highlight">Invited Paper</p>
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Weijie Yuan, Zhiqiang Wei, Jinjin Yan, Derrick Wing Kwan Ng</p>
+      <ul class="paper-details"><li><strong>Abstract</strong> <span class="abstract-note">(summary)</span>:<details class="paper-abstract"><summary>Read more</summary><p>This conference paper formulates OTFS precoding in the delay-Doppler domain to improve communication reliability while satisfying sensing and transmit-power requirements. It works with a bound on average bit error rate and develops an iterative dual optimization procedure. Numerical comparisons illustrate the resulting relationship between sensing accuracy and reliable data transmission.</p><a href="https://doi.org/10.1109/icassp48485.2024.10446140" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, W. Yuan, Z. Wei, J. Yan, D. W. K. Ng, “Optimal BER Minimum Precoder Design for OTFS-Based ISAC Systems,” <em>ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>, pp. 12966–12970, 2024. DOI: <a href="https://doi.org/10.1109/icassp48485.2024.10446140" target="_blank" rel="noopener noreferrer">10.1109/icassp48485.2024.10446140</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/icassp48485.2024.10446140" target="_blank" rel="noopener noreferrer">DOI / Publisher</a><a href="https://arxiv.org/abs/2312.11921" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://arxiv.org/pdf/2312.11921" target="_blank" rel="noopener noreferrer">PDF</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-publication-13">@inproceedings{wu2024_publication_13,
+  author = {Jun Wu and Weijie Yuan and Zhiqiang Wei and Jinjin Yan and Derrick Wing Kwan Ng},
+  title = {{Optimal BER Minimum Precoder Design for OTFS-Based ISAC Systems}},
+  booktitle = {ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year = {2024},
+  pages = {12966--12970},
+  doi = {10.1109/icassp48485.2024.10446140},
+  url = {https://doi.org/10.1109/icassp48485.2024.10446140}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-publication-13" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box no-figure" id="paper-publication-12">
+    <div class="paper-box-text">
+      <span class="venue-tag">IEEE ICC Wkshps</span>
+      <h3 class="paper-title">[2] <a href="https://ieeexplore.ieee.org/document/10283770/" target="_blank" rel="noopener noreferrer">Multi-UAV Enabled Sensing: Cramér-Rao Bound Optimization</a></h3>
+
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Weijie Yuan, Lin Bai</p>
+      <ul class="paper-details"><li><strong>Research topic</strong>:<details class="paper-abstract"><summary>Read more</summary><p>Cramer-Rao bound optimization for sensing with multiple UAVs.</p><a href="https://doi.org/10.1109/iccworkshops57953.2023.10283770" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, W. Yuan, L. Bai, “Multi-UAV Enabled Sensing: Cramér-Rao Bound Optimization,” <em>2023 IEEE International Conference on Communications Workshops (ICC Workshops)</em>, pp. 925–930, 2023. DOI: <a href="https://doi.org/10.1109/iccworkshops57953.2023.10283770" target="_blank" rel="noopener noreferrer">10.1109/iccworkshops57953.2023.10283770</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/iccworkshops57953.2023.10283770" target="_blank" rel="noopener noreferrer">DOI / Publisher</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-publication-12">@inproceedings{wu2023_publication_12,
+  author = {Jun Wu and Weijie Yuan and Lin Bai},
+  title = {{Multi-UAV Enabled Sensing: Cramér-Rao Bound Optimization}},
+  booktitle = {2023 IEEE International Conference on Communications Workshops (ICC Workshops)},
+  year = {2023},
+  pages = {925--930},
+  doi = {10.1109/iccworkshops57953.2023.10283770},
+  url = {https://doi.org/10.1109/iccworkshops57953.2023.10283770}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-publication-12" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+<div class="paper-box no-figure" id="paper-publication-11">
+    <div class="paper-box-text">
+      <span class="venue-tag">IEEE ICCC Wkshps</span>
+      <h3 class="paper-title">[1] <a href="https://ieeexplore.ieee.org/document/9896671/" target="_blank" rel="noopener noreferrer">UAV-Based Target Tracking: Integrating Sensing into Communication Signals</a></h3>
+
+      <p class="paper-authors">🧑‍🎓 <strong>Jun Wu</strong>, Weijie Yuan, Fan Liu, Yuanhao Cui, Xiao Meng, Hongjia Huang</p>
+      <ul class="paper-details"><li><strong>Research topic</strong>:<details class="paper-abstract"><summary>Read more</summary><p>UAV-based target tracking through sensing integrated into communication signals.</p><a href="https://doi.org/10.1109/icccworkshops55477.2022.9896671" target="_blank" rel="noopener noreferrer">View the published paper →</a></details></li><li><strong>Citation</strong>: <strong>J. Wu</strong>, W. Yuan, F. Liu, Y. Cui, X. Meng, H. Huang, “UAV-Based Target Tracking: Integrating Sensing into Communication Signals,” <em>2022 IEEE/CIC International Conference on Communications in China (ICCC Workshops)</em>, pp. 309–313, 2022. DOI: <a href="https://doi.org/10.1109/icccworkshops55477.2022.9896671" target="_blank" rel="noopener noreferrer">10.1109/icccworkshops55477.2022.9896671</a>.</li></ul>
+      <p class="paper-links"><a href="https://doi.org/10.1109/icccworkshops55477.2022.9896671" target="_blank" rel="noopener noreferrer">DOI / Publisher</a></p>
+      <details class="bibtex"><summary>BibTeX</summary><pre id="bib-publication-11">@inproceedings{wu2022_publication_11,
+  author = {Jun Wu and Weijie Yuan and Fan Liu and Yuanhao Cui and Xiao Meng and Hongjia Huang},
+  title = {{UAV-Based Target Tracking: Integrating Sensing into Communication Signals}},
+  booktitle = {2022 IEEE/CIC International Conference on Communications in China (ICCC Workshops)},
+  year = {2022},
+  pages = {309--313},
+  doi = {10.1109/icccworkshops55477.2022.9896671},
+  url = {https://doi.org/10.1109/icccworkshops55477.2022.9896671}
+}</pre><button class="copy-bibtex" type="button" data-copy="bib-publication-11" hidden>Copy BibTeX</button></details>
+    </div>
+  </div>
+        <h2 class="red-heading category-divider" id="collaborated-journals">👨‍👩‍👧‍👦 Collaborated Journals:</h2>
+        <ul class="collaborated-list"><li><span class="venue-tag">IEEE TMC 2026</span> H. Jin, <strong>J. Wu</strong>, W. Yuan, R. Ruan, J. Wang, D. Niyato, D. I. Kim, A. Jamalipour, “<a href="https://ieeexplore.ieee.org/document/11417712/" target="_blank" rel="noopener noreferrer">Predictive Control Over Low-Altitude Wireless Networks: Joint Trajectory Design and Resource Allocation</a>,” <em>IEEE Transactions on Mobile Computing</em>, vol. 25, no. 8, pp. 12027–12040, 2026.</li>
+<li><span class="venue-tag">IEEE WCL 2026</span> H. Jin, <strong>J. Wu</strong>, W. Yuan, “<a href="https://ieeexplore.ieee.org/document/11218200/" target="_blank" rel="noopener noreferrer">MPC-Based Path Tracking and Power Allocation for WNCS: An Outage Probability Perspective</a>,” <em>IEEE Wireless Communications Letters</em>, vol. 15, pp. 340–344, 2026.</li>
+<li><span class="venue-tag">IEEE JSAC 2026</span> N. Wu, <strong>J. Wu</strong>, W. Yuan, R. Chong, M. Matthaiou, “<a href="https://ieeexplore.ieee.org/document/11271034/" target="_blank" rel="noopener noreferrer">SAGIN-Oriented Covert Communications: Joint Robust Beamforming and Coverage Optimization</a>,” <em>IEEE Journal on Selected Areas in Communications</em>, vol. 44, pp. 1903–1915, 2026.</li>
+<li><span class="venue-tag">npj Wireless Technol. 2026</span> H. Jin, W. Yuan, <strong>J. Wu</strong>, J. Wang, D. Niyato, X. Wang, G. K. Karagiannidis, Z. Lin, Y. Gong, D. I. Kim, A. Petropulu, M. S. Greco, A. Jamalipour, S. Sun, “<a href="https://www.nature.com/articles/s44459-025-00010-1" target="_blank" rel="noopener noreferrer">Advancing the control of low-altitude wireless networks: architecture, design principles, and future directions</a>,” <em>npj Wireless Technology</em>, vol. 2, no. 1, Art. no. 2, 2026.</li>
+<li><span class="venue-tag">IEEE Network 2026</span> D. He, W. Yuan, <strong>J. Wu</strong>, R. Liu, “<a href="https://ieeexplore.ieee.org/document/11017717/" target="_blank" rel="noopener noreferrer">Ubiquitous UAV Communication Enabled Low-Altitude Economy: Applications, Techniques, and 3GPP’s Efforts</a>,” <em>IEEE Network</em>, vol. 40, no. 1, pp. 115–122, 2026. <strong class="paper-highlight">🔥 ESI Hot Paper</strong></li>
+<li><span class="venue-tag">IEEE TCCN 2026</span> H. Jin, X. Zhang, W. Yuan, J. Wang, <strong>J. Wu</strong>, X. Wang, R. Tafazolli, M.-S. Alouini, S. Sun, S. Yu, D. I. Kim, A. Jamalipour, X. Shen, “<a href="https://ieeexplore.ieee.org/document/11713473/" target="_blank" rel="noopener noreferrer">Agentic Low-Altitude Wireless Networks: Fundamentals, Design, and Future Directions</a>,” <em>IEEE Transactions on Cognitive Communications and Networking</em>, vol. 12, pp. 12543–12566, 2026.</li>
+<li><span class="venue-tag">IEEE TCCN 2026</span> X. Niu, W. Yuan, L. Tan, <strong>J. Wu</strong>, X. Wang, “<a href="https://ieeexplore.ieee.org/document/11455551/" target="_blank" rel="noopener noreferrer">Toward Intelligent IoT Services: A Generative AI-Assisted Semantic-Aware Framework</a>,” <em>IEEE Transactions on Cognitive Communications and Networking</em>, vol. 12, pp. 6988–7000, 2026.</li>
+<li><span class="venue-tag">IEEE TMC 2025</span> H. Jin, <strong>J. Wu</strong>, W. Yuan, F. Liu, Y. Cui, “<a href="https://ieeexplore.ieee.org/document/11045436/" target="_blank" rel="noopener noreferrer">Co-Design of Sensing, Communications, and Control for Low-Altitude Wireless Networks</a>,” <em>IEEE Transactions on Mobile Computing</em>, vol. 24, no. 11, pp. 12035–12048, 2025.</li>
+<li><span class="venue-tag">IEEE OJVT 2025</span> Y. Liu, X. Zhang, <strong>J. Wu</strong>, Q. Cheng, “<a href="https://ieeexplore.ieee.org/document/11016009/" target="_blank" rel="noopener noreferrer">OTFS-Assisted Sensing Adaptive Cruise Control for Highways: A Reinforcement Learning Approach</a>,” <em>IEEE Open Journal of Vehicular Technology</em>, vol. 6, pp. 1861–1871, 2025.</li>
+<li><span class="venue-tag">IEEE TVT 2025</span> X. Niu, L. Tan, <strong>J. Wu</strong>, W. Yuan, T. Q. S. Quek, “<a href="https://ieeexplore.ieee.org/document/10995230/" target="_blank" rel="noopener noreferrer">Multimodal-Oriented Interactive Joint Source-Channel Coding for Lightweight Semantic Communication</a>,” <em>IEEE Transactions on Vehicular Technology</em>, vol. 74, no. 10, pp. 16516–16520, 2025.</li>
+<li><span class="venue-tag">IEEE IoTJ 2025</span> Z. Yan, W. Yuan, X. Zhang, C. Liu, <strong>J. Wu</strong>, T. Q. S. Quek, “<a href="https://ieeexplore.ieee.org/document/11008363/" target="_blank" rel="noopener noreferrer">Deep-Learning-Based Compensation Mechanism for UAV Sensing via OTFS Signaling</a>,” <em>IEEE Internet of Things Journal</em>, vol. 12, no. 15, pp. 29797–29810, 2025.</li>
+<li><span class="venue-tag">IEEE JSAS 2024</span> K. Zhang, <strong>J. Wu</strong>, F. Dong, S. Lu, X. Li, W. Yuan, “<a href="https://ieeexplore.ieee.org/document/10681468/" target="_blank" rel="noopener noreferrer">Joint Design of Receiving Filters and Complementary set of Sequences for ISAC With Sidelobe Level Suppression</a>,” <em>IEEE Journal of Selected Areas in Sensors</em>, vol. 1, pp. 211–223, 2024.</li>
+<li><span class="venue-tag">IEEE JSTSP 2024</span> X. Zhang, W. Yuan, C. Liu, <strong>J. Wu</strong>, D. W. K. Ng, “<a href="https://ieeexplore.ieee.org/document/10543024/" target="_blank" rel="noopener noreferrer">Predictive Beamforming for Vehicles With Complex Behaviors in ISAC Systems: A Deep Learning Approach</a>,” <em>IEEE Journal of Selected Topics in Signal Processing</em>, vol. 18, no. 5, pp. 828–841, 2024.</li>
+<li><span class="venue-tag">IEEE IoTJ 2023</span> Z. Li, W. Yuan, B. Li, <strong>J. Wu</strong>, C. You, F. Meng, “<a href="https://ieeexplore.ieee.org/document/10107978/" target="_blank" rel="noopener noreferrer">Reconfigurable-Intelligent-Surface-Aided OTFS: Transmission Scheme and Channel Estimation</a>,” <em>IEEE Internet of Things Journal</em>, vol. 10, no. 22, pp. 19518–19532, 2023.</li></ul>
+        <h2 class="red-heading category-divider" id="collaborated-conferences">👣 Collaborated Conferences:</h2>
+        <ul class="collaborated-list"><li><span class="venue-tag">IEEE WCNC 2025</span> H. Jin, <strong>J. Wu</strong>, W. Yuan, Y. Shi, F. Liu, L. Zheng, Y. Gong, “<a href="https://ieeexplore.ieee.org/document/10978356/" target="_blank" rel="noopener noreferrer">OTFS-Assisted Wireless Control in UAV Networks with Finite Blocklength Transmission</a>,” <em>2025 IEEE Wireless Communications and Networking Conference (WCNC)</em>, pp. 01–06, 2025.</li>
+<li><span class="venue-tag">IEEE ICCC Wkshps 2025</span> X. Niu, W. Yuan, L. Tan, <strong>J. Wu</strong>, “<a href="https://ieeexplore.ieee.org/document/11148150/" target="_blank" rel="noopener noreferrer">ISCS: An Interactive Multimodal Semantic Communication Architecture</a>,” <em>2025 IEEE/CIC International Conference on Communications in China (ICCC Workshops)</em>, pp. 1–6, 2025.</li>
+<li><span class="venue-tag">IEEE WCNC 2024</span> Y. Liu, Y. Shi, X. Zhang, <strong>J. Wu</strong>, S. Yang, “<a href="https://ieeexplore.ieee.org/document/10570722/" target="_blank" rel="noopener noreferrer">Reinforcement Learning-Based Car-Following Control for Autonomous Vehicles with OTFS</a>,” <em>2024 IEEE Wireless Communications and Networking Conference (WCNC)</em>, pp. 1–6, 2024.</li>
+<li><span class="venue-tag">IEEE SPAWC 2023</span> X. Zhang, W. Yuan, C. Liu, <strong>J. Wu</strong>, Z. Li, “<a href="https://ieeexplore.ieee.org/document/10304366/" target="_blank" rel="noopener noreferrer">Deep Learning-Based Cramér-Rao Bound Optimization for Integrated Sensing and Communication in Vehicular Networks</a>,” <em>2023 IEEE 24th International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)</em>, pp. 646–650, 2023.</li></ul>
+        <p class="publication-note">For further updates, visit <a href="https://scholar.google.com.hk/citations?user=nFfGfdIAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Google Scholar</a>, <a href="https://ieeexplore.ieee.org/author/37089556127" target="_blank" rel="noopener noreferrer">IEEE Xplore</a>, or <a href="https://orcid.org/0000-0001-9424-1056" target="_blank" rel="noopener noreferrer">ORCID</a>. <a href="assets/publications.bib" download>Download BibTeX</a>.</p>
       </section>
-
-      <footer class="footer">
-        <p>© <span id="year"></span> Jun Wu. Last updated in 2026.</p>
-      </footer>
-    </section>
+      <section aria-labelledby="-academic-service">
+        <h1 id="-academic-service">🤝 Academic Service</h1>
+        <h2 class="red-heading">Reviewer</h2>
+        <ul><li>IEEE Transactions on Wireless Communications (TWC)</li><li>IEEE Transactions on Vehicular Technology (TVT)</li><li>IEEE Communications Magazine</li><li>IEEE Journal on Selected Areas in Communications (JSAC)</li><li>IEEE Communications Letters</li><li>IEEE Transactions on Mobile Computing (TMC)</li></ul>
+        <h2 class="red-heading">Associate Editor</h2><ul><li>Journal of Advanced Signal Processing.</li></ul>
+        <h2 class="red-heading">Technical Program Committee</h2><ul><li>IEEE ICC, IEEE GLOBECOM, IEEE WCNC, and IEEE VTC.</li></ul>
+        <h2 class="red-heading">Teaching Assistant</h2><ul><li>Signals and Systems; Signal Detection and Estimation.</li></ul>
+      </section>
+      <footer class="site-footer"><p>© 2026 Jun Wu. Last updated: October 15, 2026.</p><p>Layout adapted from <a href="https://boyuning.github.io/" target="_blank" rel="noopener noreferrer">Boyu Ning's homepage</a> and the <a href="https://github.com/AcadHomepage/AcadHomepage.github.io" target="_blank" rel="noopener noreferrer">AcadHomepage</a> theme.</p></footer>
+    </div></div></article>
   </main>
-
-  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
-
-  <script src="script.js"></script>
+  <a class="back-to-top" href="#about-me" aria-label="Back to top" title="Back to top" hidden>↑</a>
+  <p class="screen-reader-text" id="copy-status" role="status" aria-live="polite"></p>
 </body>
 </html>

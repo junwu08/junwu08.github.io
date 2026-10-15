@@ -1,0 +1,1282 @@
+[
+  {
+    "title": "Toward Dual-Functional LAWN: Control-Aware System Design for Aerodynamics-Aided UAV Formations",
+    "authors": [
+      "Jun Wu",
+      "Weijie Yuan",
+      "Qingqing Cheng",
+      "Haijia Jin"
+    ],
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "year": 2026,
+    "volume": "44",
+    "issue": null,
+    "pages": "791-804",
+    "doi": "10.1109/jsac.2025.3608746",
+    "arxiv": "2507.19910",
+    "url": "https://ieeexplore.ieee.org/document/11159297/",
+    "pdf": "https://arxiv.org/pdf/2507.19910",
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fjsac.2025.3608746",
+      "https://orcid.org/0000-0001-9424-1056",
+      "https://arxiv.org/abs/2507.19910"
+    ],
+    "firstAuthor": true,
+    "type": "journal",
+    "publicationDate": [
+      2026
+    ],
+    "originalSiteTitle": "Towards Dual-Functional LAWN: Control-Aware System Design for Aerodynamics-Aided UAV Formations",
+    "articleNumber": null,
+    "summary": "This work connects aerodynamic energy savings with the wireless control of UAV formations. A ground station uses a shared ISAC transmission to guide multiple formations and monitor a target region. A distributed diffusion-LMS procedure lets neighboring UAVs cooperate to form an energy-saving configuration. The beamformer is then designed around the worst control cost, subject to transmit-power and sensing requirements. A combination of successive convex approximation and semidefinite relaxation handles the coupled optimization. Simulations examine how formation geometry and radio-resource design jointly affect energy consumption and control performance.",
+    "shortVenue": "IEEE JSAC",
+    "id": "dual-functional-lawn",
+    "image": {
+      "title": "Toward Dual-Functional LAWN: Control-Aware System Design for Aerodynamics-Aided UAV Formations",
+      "path": "assets/papers/dual-functional-lawn.webp",
+      "source": "https://arxiv.org/html/2507.19910v1/V_formation_scenario.png",
+      "paper": "https://arxiv.org/html/2507.19910v1",
+      "caption": "Fig. 1: The considered LAWN includes an ISAC-GBS to continuously monitor the formations and sense the pre-determined target area, providing precise guidance to UAV formations flight.",
+      "width": 900,
+      "height": 542,
+      "bytes": 42364
+    },
+    "highlight": "🚀 ESI Highly Cited Paper",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "LAWNs Meet SWIPT: Beamforming and Power Splitting Optimization for Predictive Control",
+    "authors": [
+      "Jun Wu",
+      "Wenchao Liu",
+      "Weijie Yuan",
+      "Nanchi Su"
+    ],
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "year": 2026,
+    "volume": "44",
+    "issue": null,
+    "pages": "4968-4981",
+    "doi": "10.1109/jsac.2026.3701349",
+    "arxiv": "2606.22534",
+    "url": "https://ieeexplore.ieee.org/document/11556215/",
+    "pdf": "https://arxiv.org/pdf/2606.22534",
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fjsac.2026.3701349",
+      "https://orcid.org/0000-0001-9424-1056",
+      "https://arxiv.org/abs/2606.22534"
+    ],
+    "firstAuthor": true,
+    "type": "journal",
+    "publicationDate": [
+      2026
+    ],
+    "originalSiteTitle": "LAWNs Meet SWIPT: Beamforming and Power Splitting Optimization for Predictive Control",
+    "articleNumber": null,
+    "metadataNote": "Crossref current pagination is 4968-4981; older DBLP entry reports 32-45. Current publisher-deposited Crossref record is used.",
+    "summary": "A multi-antenna base station sends both control commands and energy to aerial vehicles, which divide received power between information decoding and energy harvesting. The design must maintain accurate flight-path tracking while avoiding moving no-fly zones. Stream-function planning first constructs safe reference paths; model predictive control then determines the control inputs. Beamformers and receiver power-splitting ratios are optimized together using successive convex approximation and semidefinite relaxation. The study analyzes the tightness of the relaxation and evaluates the resulting balance between tracking accuracy and harvested energy.",
+    "shortVenue": "IEEE JSAC",
+    "id": "lawns-swipt",
+    "image": {
+      "title": "LAWNs Meet SWIPT: Beamforming and Power Splitting Optimization for Predictive Control",
+      "path": "assets/papers/lawns-swipt.webp",
+      "source": "https://arxiv.org/html/2606.22534v1/scenarionew.png",
+      "paper": "https://arxiv.org/html/2606.22534v1",
+      "caption": "Fig. 1: The considered SWIPT-LAWN scenario, where the BS simultaneously delivers control information and wireless energy to a fleet of UASs.",
+      "width": 900,
+      "height": 513,
+      "bytes": 37614
+    },
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Low-Complexity Minimum BER Precoder Design for ISAC Systems: A Delay-Doppler Perspective",
+    "authors": [
+      "Jun Wu",
+      "Weijie Yuan",
+      "Zhiqiang Wei",
+      "Kecheng Zhang",
+      "Fan Liu",
+      "Derrick Wing Kwan Ng"
+    ],
+    "venue": "IEEE Transactions on Wireless Communications",
+    "year": 2025,
+    "volume": "24",
+    "issue": "2",
+    "pages": "1526-1540",
+    "doi": "10.1109/twc.2024.3509973",
+    "arxiv": "2410.15646",
+    "url": "https://ieeexplore.ieee.org/document/10791452/",
+    "pdf": "https://arxiv.org/pdf/2410.15646",
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ftwc.2024.3509973",
+      "https://orcid.org/0000-0001-9424-1056",
+      "https://arxiv.org/abs/2410.15646"
+    ],
+    "firstAuthor": true,
+    "type": "journal",
+    "publicationDate": [
+      2025,
+      2
+    ],
+    "originalSiteTitle": "Low-Complexity Minimum BER Precoder Design for ISAC Systems: A Delay-Doppler Perspective",
+    "articleNumber": null,
+    "summary": "How should an OTFS transmitter shape its signal when both reliable data delivery and accurate sensing matter? This paper designs a precoder directly in the delay-Doppler domain, taking advantage of the sparse, slowly varying equivalent channel. The objective minimizes a bound on average bit error rate while meeting transmit-power and sensing constraints. Singular value decomposition separates the design into smaller problems, and a dual optimization method provides a low-complexity solution. The analysis includes feasibility conditions and illustrates the trade-offs among sensing quality, communication reliability, and transmission efficiency.",
+    "shortVenue": "IEEE TWC",
+    "id": "minimum-ber",
+    "image": {
+      "title": "Low-Complexity Minimum BER Precoder Design for ISAC Systems: A Delay-Doppler Perspective",
+      "path": "assets/papers/minimum-ber.webp",
+      "source": "https://arxiv.org/html/2410.15646v1/OTFS_BER_scenario.png",
+      "paper": "https://arxiv.org/html/2410.15646v1",
+      "caption": "Fig. 1: The considered OTFS-based ISAC scenario.",
+      "width": 880,
+      "height": 405,
+      "bytes": 33526
+    },
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "When UAVs Meet ISAC: Real-Time Trajectory Design for Secure Communications",
+    "authors": [
+      "Jun Wu",
+      "Weijie Yuan",
+      "Lajos Hanzo"
+    ],
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "year": 2023,
+    "volume": "72",
+    "issue": "12",
+    "pages": "16766-16771",
+    "doi": "10.1109/tvt.2023.3290033",
+    "arxiv": "2306.14140",
+    "url": "https://ieeexplore.ieee.org/document/10168298/",
+    "pdf": "https://arxiv.org/pdf/2306.14140",
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ftvt.2023.3290033",
+      "https://orcid.org/0000-0001-9424-1056",
+      "https://arxiv.org/abs/2306.14140"
+    ],
+    "firstAuthor": true,
+    "type": "journal",
+    "publicationDate": [
+      2023,
+      12
+    ],
+    "originalSiteTitle": "When UAVs Meet ISAC: Real-Time Trajectory Design for Secure Communications",
+    "articleNumber": null,
+    "summary": "This paper uses sensing feedback to guide a UAV that communicates securely with a moving ground user. Echo-delay observations feed an extended Kalman filter, allowing the UAV to estimate and predict the legitimate user’s changing location. The flight trajectory is updated to improve the instantaneous secrecy rate in the presence of an eavesdropper following a known path. An iterative optimizer addresses the resulting non-convex design. Numerical experiments assess tracking accuracy and the balance between useful transmission and information leakage.",
+    "shortVenue": "IEEE TVT",
+    "id": "uav-isac-security",
+    "image": {
+      "title": "When UAVs Meet ISAC: Real-Time Trajectory Design for Secure Communications",
+      "path": "assets/papers/uav-isac-security.webp",
+      "source": "https://arxiv.org/html/2306.14140v1/scenary.png",
+      "paper": "https://arxiv.org/html/2306.14140v1",
+      "caption": "Fig. 1: A UAV-enabled ISAC system.",
+      "width": 361,
+      "height": 181,
+      "bytes": 10282
+    },
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "SDR-Empowered Environment Sensing Design and Experimental Validation Using OTFS-ISAC Signals",
+    "authors": [
+      "Jun Wu",
+      "Yuye Shi",
+      "Weijie Yuan",
+      "Qingqing Cheng",
+      "Buyi Li",
+      "Xinyuan Wei"
+    ],
+    "venue": "IEEE Transactions on Mobile Computing",
+    "year": 2025,
+    "volume": "24",
+    "issue": "11",
+    "pages": "12252-12263",
+    "doi": "10.1109/tmc.2025.3581716",
+    "arxiv": "2507.01427",
+    "url": "https://ieeexplore.ieee.org/document/11045558/",
+    "pdf": "https://arxiv.org/pdf/2507.01427",
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ftmc.2025.3581716",
+      "https://orcid.org/0000-0001-9424-1056",
+      "https://arxiv.org/abs/2507.01427"
+    ],
+    "firstAuthor": true,
+    "type": "journal",
+    "publicationDate": [
+      2025,
+      11
+    ],
+    "originalSiteTitle": "SDR-Empowered Environment Sensing Design and Experimental Validation Using OTFS-ISAC Signals",
+    "articleNumber": null,
+    "summary": "This work takes OTFS-based environment sensing from signal processing to a physical radio experiment. It combines delay-Doppler channel estimation, target localization, and transmitter-velocity estimation in one framework. Fractional delay and Doppler shifts are included in the channel model, and a three-ellipse localization method turns the estimated channel parameters into spatial information. A software-defined radio testbed built with USRP hardware is used alongside simulations to evaluate the design. The experiments compare localization and velocity-estimation accuracy with benchmark approaches.",
+    "shortVenue": "IEEE TMC",
+    "id": "sdr-otfs-isac",
+    "image": {
+      "title": "SDR-Empowered Environment Sensing Design and Experimental Validation Using OTFS-ISAC Signals",
+      "path": "assets/papers/sdr-otfs-isac.webp",
+      "source": "https://arxiv.org/html/2507.01427v1/USRPPhisicalModel2.png",
+      "paper": "https://arxiv.org/html/2507.01427v1",
+      "caption": "Fig. 6: The environment sensing physical scene built upon the SDR platform with USRP device using OTFS signals.",
+      "width": 900,
+      "height": 406,
+      "bytes": 65634
+    },
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Toward Multi-Functional LAWNs With ISAC: Opportunities, Challenges, and the Road Ahead",
+    "authors": [
+      "Jun Wu",
+      "Weijie Yuan",
+      "Xiaoqi Zhang",
+      "Yaohuan Yu",
+      "Yuanhao Cui",
+      "Fan Liu",
+      "Geng Sun",
+      "Jiacheng Wang",
+      "Dusit Niyato",
+      "Dong In Kim"
+    ],
+    "venue": "IEEE Wireless Communications",
+    "year": 2026,
+    "volume": null,
+    "issue": null,
+    "pages": "1-8",
+    "doi": "10.1109/mwc.2026.3672360",
+    "arxiv": "2508.17354",
+    "url": "https://ieeexplore.ieee.org/document/11449571/",
+    "pdf": "https://arxiv.org/pdf/2508.17354",
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fmwc.2026.3672360",
+      "https://orcid.org/0000-0001-9424-1056",
+      "https://arxiv.org/abs/2508.17354"
+    ],
+    "firstAuthor": true,
+    "type": "journal",
+    "publicationDate": [
+      2026
+    ],
+    "originalSiteTitle": "Toward Multi-Functional LAWNs with ISAC: Opportunities, Challenges, and the Road Ahead",
+    "articleNumber": null,
+    "summary": "This article examines how ISAC can support low-altitude networks at both the individual-node and cooperative-network levels. It discusses the gains and trade-offs associated with hierarchical integration, then broadens the architecture to include remote control, edge computation, wireless energy delivery, and language-model-based intelligence. A case study illustrates the benefits of combining these functions. The resulting framework identifies opportunities and open design questions for aerial networks that must support more than data transmission alone.",
+    "shortVenue": "IEEE WCM",
+    "id": "multifunctional-lawns",
+    "image": {
+      "title": "Toward Multi-Functional LAWNs with ISAC: Opportunities, Challenges, and the Road Ahead",
+      "path": "assets/papers/multifunctional-lawns.webp",
+      "source": "https://arxiv.org/html/2508.17354v1/fig1.png",
+      "paper": "https://arxiv.org/html/2508.17354v1",
+      "caption": "Fig. 1: ISAC-enabled LAWN applications, e.g., accident detection, fire detection, logistics, pedestrian awareness, and live streaming in urban environments, providing flexible and efficient service coverage.",
+      "width": 791,
+      "height": 572,
+      "bytes": 72272
+    },
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "On the Interplay Between Sensing and Communications for UAV Trajectory Design",
+    "authors": [
+      "Jun Wu",
+      "Weijie Yuan",
+      "Lin Bai"
+    ],
+    "venue": "IEEE Internet of Things Journal",
+    "year": 2023,
+    "volume": "10",
+    "issue": "23",
+    "pages": "20383-20395",
+    "doi": "10.1109/jiot.2023.3287991",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/10158322/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fjiot.2023.3287991",
+      "https://orcid.org/0000-0001-9424-1056",
+      "https://cns.buaa.edu.cn/info/1167/2082.htm"
+    ],
+    "firstAuthor": true,
+    "type": "journal",
+    "publicationDate": [
+      2023,
+      12,
+      1
+    ],
+    "originalSiteTitle": "On the Interplay Between Sensing and Communications for UAV Trajectory Design",
+    "articleNumber": null,
+    "summary": "A group of UAVs simultaneously communicates with and senses moving ground users. This work jointly designs flight trajectories and user association, balancing downlink throughput against tracking accuracy. Range information extracted from sensing echoes supports extended-Kalman-filter prediction and tracking. An alternating optimization method, using successive convex approximation, coordinates the trajectory and association decisions under flight, power, and collision-avoidance constraints. The study makes the sensing–communication trade-off explicit through communication-rate and Cramér–Rao-bound objectives.",
+    "shortVenue": "IEEE IoTJ",
+    "id": "sensing-communication-interplay",
+    "image": {
+      "title": "On the Interplay Between Sensing and Communications for UAV Trajectory Design",
+      "path": "assets/papers/sensing-communication-interplay.svg",
+      "caption": "Conceptual illustration of multi-UAV ISAC with EKF user tracking and joint trajectory and user association design, balancing communication rate and tracking CRB.",
+      "source": "https://doi.org/10.1109/JIOT.2023.3287991",
+      "kind": "conceptual"
+    },
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Aerial-networked ISAC-empowered collaborative energy-efficient covert communications",
+    "authors": [
+      "Jun Wu",
+      "Weijie Yuan",
+      "Qin Tao",
+      "Hongjia Huang",
+      "Derrick Wing Kwan Ng"
+    ],
+    "venue": "Chinese Journal of Aeronautics",
+    "year": 2025,
+    "volume": "38",
+    "issue": "10",
+    "pages": "103451",
+    "doi": "10.1016/j.cja.2025.103451",
+    "arxiv": null,
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1000936125000573",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1016%2Fj.cja.2025.103451",
+      "https://www.sciencedirect.com/science/article/pii/S1000936125000573"
+    ],
+    "firstAuthor": true,
+    "type": "journal",
+    "publicationDate": [
+      2025,
+      10
+    ],
+    "originalSiteTitle": "Aerial Networked-ISAC Empowered Collaborative Energy-Efficient Covert Communications",
+    "articleNumber": "103451",
+    "summary": "This study combines cooperative aerial sensing with covert communication. Networked UAVs take either information-transmission or jamming roles, while delay and Doppler measurements help an unscented Kalman filter track a moving warden. The design jointly selects jammers, schedules users, allocates transmit power, and plans UAV trajectories. Its objective is energy-efficient downlink communication subject to covertness and power requirements. The framework shows how sensing information and cooperation between UAVs can inform decisions about when, where, and how to transmit.",
+    "shortVenue": "CJA",
+    "id": "aerial-covert",
+    "image": {
+      "title": "Aerial-networked ISAC-empowered collaborative energy-efficient covert communications",
+      "path": "assets/papers/aerial-covert.svg",
+      "caption": "Conceptual illustration of information and jamming UAVs, ground users, and a mobile warden; UKF tracking supports joint optimization of roles, scheduling, power, and trajectories.",
+      "source": "https://doi.org/10.1016/j.cja.2025.103451",
+      "kind": "conceptual"
+    },
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Low-altitude wireless networks: A comprehensive survey",
+    "authors": [
+      "Jun Wu",
+      "Yaoqi Yang",
+      "Weijie Yuan",
+      "Wenchao Liu",
+      "Jiacheng Wang",
+      "Tianqi Mao",
+      "Lin Zhou",
+      "Yuanhao Cui",
+      "Fan Liu",
+      "Geng Sun",
+      "Yiyan Ma",
+      "Nan Wu",
+      "Dezhi Zheng",
+      "Jindan Xu",
+      "Nan Ma",
+      "Zhiyong Feng",
+      "Wei Xu",
+      "Dusit Niyato",
+      "Chau Yuen",
+      "Xiaojun Jing",
+      "Zhiguo Shi",
+      "Bo Ai",
+      "Shi Jin",
+      "Dong In Kim",
+      "Jiangzhou Wang",
+      "Ping Zhang",
+      "Hao Yin",
+      "Jun Zhang"
+    ],
+    "venue": "China Communications",
+    "year": 2026,
+    "volume": "23",
+    "issue": "3",
+    "pages": "99-141",
+    "doi": "10.23919/jcc.fa.2025-0429.202603",
+    "arxiv": "2509.11607",
+    "url": "https://ieeexplore.ieee.org/document/11503149/",
+    "pdf": "https://arxiv.org/pdf/2509.11607",
+    "sources": [
+      "https://api.crossref.org/works/10.23919%2Fjcc.fa.2025-0429.202603",
+      "https://arxiv.org/abs/2509.11607"
+    ],
+    "firstAuthor": true,
+    "type": "journal",
+    "publicationDate": [
+      2026,
+      3
+    ],
+    "originalSiteTitle": "Low-Altitude Wireless Networks: A Comprehensive Survey",
+    "articleNumber": null,
+    "metadataNote": "Author name order normalized against arXiv because Crossref provides many Chinese names in family-name-first order.",
+    "summary": "This survey treats the low-altitude wireless network as a shared infrastructure for communication, sensing, computation, control, and energy delivery. It reviews network fundamentals and the development of these functions, then examines the metrics needed to evaluate their performance. Privacy and security are considered alongside the practical challenges of organizing three-dimensional airspace and managing aerial traffic. By connecting wireless-system design with airspace operations, the article maps the technical issues that arise when moving from isolated drone links to large-scale low-altitude services.",
+    "shortVenue": "China Commun.",
+    "id": "lawn-survey",
+    "image": {
+      "title": "Low-Altitude Wireless Networks: A Comprehensive Survey",
+      "path": "assets/papers/lawn-survey.webp",
+      "source": "https://arxiv.org/html/2509.11607v1/SCE.png",
+      "paper": "https://arxiv.org/html/2509.11607v1",
+      "caption": "Figure 1: LAWN-enabled scenarios across rural, urban, and offshore environments with satellites and low-altitude platforms collaboratively providing ubiquitous communication, sensing, and service coverage to diverse applications.",
+      "width": 900,
+      "height": 635,
+      "bytes": 40024
+    },
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Formation Control for CRLB-Optimal Cooperative Sensing in Low-Altitude Wireless Networks",
+    "authors": [
+      "Jun Wu",
+      "Haijia Jin",
+      "Nanchi Su",
+      "Jinna Li",
+      "Haoyuan Pan",
+      "Tse-Tin Chan"
+    ],
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "year": 2026,
+    "volume": null,
+    "issue": null,
+    "pages": "1-6",
+    "doi": "10.1109/tvt.2026.3743628",
+    "arxiv": "2602.23990",
+    "url": "https://ieeexplore.ieee.org/document/11737572/",
+    "pdf": "https://arxiv.org/pdf/2602.23990",
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ftvt.2026.3743628",
+      "https://orcid.org/0000-0001-9424-1056",
+      "https://arxiv.org/abs/2602.23990"
+    ],
+    "firstAuthor": true,
+    "type": "journal",
+    "publicationDate": [
+      2026
+    ],
+    "originalSiteTitle": "Formation Control for CRLB-Optimal Cooperative Sensing in Low-Altitude Wireless Networks",
+    "articleNumber": null,
+    "metadataNote": "Original site says under review; ORCID and Crossref now provide IEEE TVT DOI and 2026 online publication. Volume and issue are not yet supplied.",
+    "summary": "This paper asks which UAV formation geometry gives the most accurate cooperative target localization. Starting from range measurements, it derives a Fisher-information model and minimizes the trace of the position-estimation bound. The analysis relates the optimal arrangement to isotropic horizontal information and a regular polygon, with elevation governed by propagation loss and geometric diversity. A distributed controller then brings UAVs toward this configuration while accommodating formation movement and obstacles. Simulations compare localization bounds and convergence against alternative formations.",
+    "shortVenue": "IEEE TVT",
+    "id": "formation-control",
+    "image": {
+      "title": "Formation Control for CRLB-Optimal Cooperative Sensing in Low-Altitude Wireless Networks",
+      "path": "assets/papers/formation-control.webp",
+      "source": "https://arxiv.org/html/2602.23990v1/scenarionew.png",
+      "paper": "https://arxiv.org/html/2602.23990v1",
+      "caption": "Fig. 1: The considered LAWN system where a formation is dispatched to sense the target cooperatively.",
+      "width": 497,
+      "height": 287,
+      "bytes": 20616
+    },
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "UAV-Based Target Tracking: Integrating Sensing into Communication Signals",
+    "authors": [
+      "Jun Wu",
+      "Weijie Yuan",
+      "Fan Liu",
+      "Yuanhao Cui",
+      "Xiao Meng",
+      "Hongjia Huang"
+    ],
+    "venue": "2022 IEEE/CIC International Conference on Communications in China (ICCC Workshops)",
+    "year": 2022,
+    "volume": null,
+    "issue": null,
+    "pages": "309-313",
+    "doi": "10.1109/icccworkshops55477.2022.9896671",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/9896671/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ficccworkshops55477.2022.9896671"
+    ],
+    "firstAuthor": true,
+    "type": "conference",
+    "publicationDate": [
+      2022,
+      8,
+      11
+    ],
+    "originalSiteTitle": "UAV-Based Target Tracking: Integrating Sensing into Communication Signals",
+    "articleNumber": null,
+    "summary": "UAV-based target tracking through sensing integrated into communication signals.",
+    "shortVenue": "IEEE ICCC Wkshps",
+    "id": "publication-11",
+    "summaryLabel": "Research topic",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Multi-UAV Enabled Sensing: Cramér-Rao Bound Optimization",
+    "authors": [
+      "Jun Wu",
+      "Weijie Yuan",
+      "Lin Bai"
+    ],
+    "venue": "2023 IEEE International Conference on Communications Workshops (ICC Workshops)",
+    "year": 2023,
+    "volume": null,
+    "issue": null,
+    "pages": "925-930",
+    "doi": "10.1109/iccworkshops57953.2023.10283770",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/10283770/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ficcworkshops57953.2023.10283770"
+    ],
+    "firstAuthor": true,
+    "type": "conference",
+    "publicationDate": [
+      2023,
+      5,
+      28
+    ],
+    "originalSiteTitle": "Multi-UAV Enabled Sensing: Cramér-Rao Bound Optimization",
+    "articleNumber": null,
+    "summary": "Cramer-Rao bound optimization for sensing with multiple UAVs.",
+    "shortVenue": "IEEE ICC Wkshps",
+    "id": "publication-12",
+    "summaryLabel": "Research topic",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Optimal BER Minimum Precoder Design for OTFS-Based ISAC Systems",
+    "authors": [
+      "Jun Wu",
+      "Weijie Yuan",
+      "Zhiqiang Wei",
+      "Jinjin Yan",
+      "Derrick Wing Kwan Ng"
+    ],
+    "venue": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": 2024,
+    "volume": null,
+    "issue": null,
+    "pages": "12966-12970",
+    "doi": "10.1109/icassp48485.2024.10446140",
+    "arxiv": "2312.11921",
+    "url": "https://ieeexplore.ieee.org/document/10446140/",
+    "pdf": "https://arxiv.org/pdf/2312.11921",
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ficassp48485.2024.10446140",
+      "https://arxiv.org/abs/2312.11921"
+    ],
+    "firstAuthor": true,
+    "type": "conference",
+    "publicationDate": [
+      2024,
+      4,
+      14
+    ],
+    "originalSiteTitle": "Optimal BER Minimum Precoder Design for OTFS-Based ISAC Systems",
+    "articleNumber": null,
+    "summary": "This conference paper formulates OTFS precoding in the delay-Doppler domain to improve communication reliability while satisfying sensing and transmit-power requirements. It works with a bound on average bit error rate and develops an iterative dual optimization procedure. Numerical comparisons illustrate the resulting relationship between sensing accuracy and reliable data transmission.",
+    "shortVenue": "IEEE ICASSP",
+    "id": "publication-13",
+    "summaryLabel": "Abstract",
+    "image": {
+      "path": "assets/papers/icassp-ber.svg",
+      "source": "https://arxiv.org/html/2312.11921v1/BER_SNR.svg",
+      "caption": "BER versus SNR for the OTFS-ISAC precoder (Fig. 1 from the ICASSP paper).",
+      "width": 420.0,
+      "height": 315.0
+    },
+    "highlight": "Invited Paper",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Control-Driven ISAC Beamforming Design for Low-Altitude Wireless Networks",
+    "authors": [
+      "Jun Wu",
+      "Xiaowen Cao",
+      "Qingqing Cheng",
+      "Shihang Lu",
+      "Shuqiang Xia",
+      "Zhongbin Wang"
+    ],
+    "venue": "2025 IEEE Globecom Workshops (GC Wkshps)",
+    "year": 2025,
+    "volume": null,
+    "issue": null,
+    "pages": "1322-1326",
+    "doi": "10.1109/gcwkshps68340.2025.11590903",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/11590903/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fgcwkshps68340.2025.11590903"
+    ],
+    "firstAuthor": true,
+    "type": "conference",
+    "publicationDate": [
+      2025,
+      12,
+      8
+    ],
+    "originalSiteTitle": "Control-Driven ISAC Beamforming for Low-Altitude Wireless Networks",
+    "articleNumber": null,
+    "metadataNote": "Corrected original site title by adding Design, and venue to Globecom Workshops.",
+    "summary": "Control-driven beamforming design for integrated sensing and communication in low-altitude wireless networks.",
+    "shortVenue": "IEEE GLOBECOM Wkshps",
+    "id": "publication-14",
+    "summaryLabel": "Research topic",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Co-Design of Sensing, Communications, and Control for Low-Altitude Wireless Networks",
+    "authors": [
+      "Haijia Jin",
+      "Jun Wu",
+      "Weijie Yuan",
+      "Fan Liu",
+      "Yuanhao Cui"
+    ],
+    "venue": "IEEE Transactions on Mobile Computing",
+    "year": 2025,
+    "volume": "24",
+    "issue": "11",
+    "pages": "12035-12048",
+    "doi": "10.1109/tmc.2025.3581616",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/11045436/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ftmc.2025.3581616",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2025,
+      11
+    ],
+    "originalSiteTitle": "Co-Design of Sensing, Communication, and Control for Multi-UAV Cooperative Networks with Finite Blocklength Transmission",
+    "articleNumber": null,
+    "metadataNote": "Original site used the earlier title Co-Design of Sensing, Communication, and Control for Multi-UAV Cooperative Networks with Finite Blocklength Transmission. Replaced with final publisher title.",
+    "summary": null,
+    "shortVenue": "IEEE TMC",
+    "id": "publication-15",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Predictive Control Over Low-Altitude Wireless Networks: Joint Trajectory Design and Resource Allocation",
+    "authors": [
+      "Haijia Jin",
+      "Jun Wu",
+      "Weijie Yuan",
+      "Ruizhi Ruan",
+      "Jiacheng Wang",
+      "Dusit Niyato",
+      "Dong In Kim",
+      "Abbas Jamalipour"
+    ],
+    "venue": "IEEE Transactions on Mobile Computing",
+    "year": 2026,
+    "volume": "25",
+    "issue": "8",
+    "pages": "12027-12040",
+    "doi": "10.1109/tmc.2026.3668854",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/11417712/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ftmc.2026.3668854",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2026,
+      8
+    ],
+    "originalSiteTitle": "Predictive Control Over Low-Altitude Wireless Networks: Joint Trajectory Design and Resource Allocation",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE TMC",
+    "id": "publication-16",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "MPC-Based Path Tracking and Power Allocation for WNCS: An Outage Probability Perspective",
+    "authors": [
+      "Haijia Jin",
+      "Jun Wu",
+      "Weijie Yuan"
+    ],
+    "venue": "IEEE Wireless Communications Letters",
+    "year": 2026,
+    "volume": "15",
+    "issue": null,
+    "pages": "340-344",
+    "doi": "10.1109/lwc.2025.3625699",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/11218200/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Flwc.2025.3625699",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2026
+    ],
+    "originalSiteTitle": "MPC-Based Path Tracking and Power Allocation for WNCS: An Outage Probability Perspective",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE WCL",
+    "id": "publication-17",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "SAGIN-Oriented Covert Communications: Joint Robust Beamforming and Coverage Optimization",
+    "authors": [
+      "Nan Wu",
+      "Jun Wu",
+      "Weijie Yuan",
+      "Ruoxi Chong",
+      "Michail Matthaiou"
+    ],
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "year": 2026,
+    "volume": "44",
+    "issue": null,
+    "pages": "1903-1915",
+    "doi": "10.1109/jsac.2025.3638305",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/11271034/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fjsac.2025.3638305",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2026
+    ],
+    "originalSiteTitle": "SAGIN-Oriented Covert Communications: Joint Robust Beamforming and Coverage Optimization",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE JSAC",
+    "id": "publication-18",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Joint Design of Receiving Filters and Complementary set of Sequences for ISAC With Sidelobe Level Suppression",
+    "authors": [
+      "Kecheng Zhang",
+      "Jun Wu",
+      "Fuwang Dong",
+      "Shihang Lu",
+      "Xiang Li",
+      "Weijie Yuan"
+    ],
+    "venue": "IEEE Journal of Selected Areas in Sensors",
+    "year": 2024,
+    "volume": "1",
+    "issue": null,
+    "pages": "211-223",
+    "doi": "10.1109/jsas.2024.3462687",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/10681468/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fjsas.2024.3462687",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2024
+    ],
+    "originalSiteTitle": "Joint Design of Receiving Filters and Complementary Set of Sequences for ISAC With Sidelobe Level Suppression",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE JSAS",
+    "id": "publication-19",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Advancing the control of low-altitude wireless networks: architecture, design principles, and future directions",
+    "authors": [
+      "Haijia Jin",
+      "Weijie Yuan",
+      "Jun Wu",
+      "Jiacheng Wang",
+      "Dusit Niyato",
+      "Xianbin Wang",
+      "George K. Karagiannidis",
+      "Zhiyun Lin",
+      "Yi Gong",
+      "Dong In Kim",
+      "Athina Petropulu",
+      "Maria Sabrina Greco",
+      "Abbas Jamalipour",
+      "Sumei Sun"
+    ],
+    "venue": "npj Wireless Technology",
+    "year": 2026,
+    "volume": "2",
+    "issue": "1",
+    "pages": null,
+    "doi": "10.1038/s44459-025-00010-1",
+    "arxiv": null,
+    "url": "https://www.nature.com/articles/s44459-025-00010-1",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1038%2Fs44459-025-00010-1"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2026,
+      1,
+      7
+    ],
+    "originalSiteTitle": "Advancing the Control of Low-Altitude Wireless Networks: Architecture, Design Principles, and Future Directions",
+    "articleNumber": "2",
+    "summary": null,
+    "shortVenue": "npj Wireless Technol.",
+    "id": "publication-20",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Ubiquitous UAV Communication Enabled Low-Altitude Economy: Applications, Techniques, and 3GPP’s Efforts",
+    "authors": [
+      "Dongxuan He",
+      "Weijie Yuan",
+      "Jun Wu",
+      "Ruiqi Liu"
+    ],
+    "venue": "IEEE Network",
+    "year": 2026,
+    "volume": "40",
+    "issue": "1",
+    "pages": "115-122",
+    "doi": "10.1109/mnet.2025.3574922",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/11017717/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fmnet.2025.3574922",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2026,
+      1
+    ],
+    "originalSiteTitle": "Ubiquitous UAV Communication Enabled Low-Altitude Economy: Applications, Techniques, and 3GPP's Efforts",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE Network",
+    "id": "publication-21",
+    "highlight": "🔥 ESI Hot Paper",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "OTFS-Assisted Sensing Adaptive Cruise Control for Highways: A Reinforcement Learning Approach",
+    "authors": [
+      "Yulin Liu",
+      "Xiaoqi Zhang",
+      "Jun Wu",
+      "Qingqing Cheng"
+    ],
+    "venue": "IEEE Open Journal of Vehicular Technology",
+    "year": 2025,
+    "volume": "6",
+    "issue": null,
+    "pages": "1861-1871",
+    "doi": "10.1109/ojvt.2025.3574223",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/11016009/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fojvt.2025.3574223",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2025
+    ],
+    "originalSiteTitle": "OTFS-Assisted Sensing Adaptive Cruise Control for Highways: A Reinforcement Learning Approach",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE OJVT",
+    "id": "publication-22",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Multimodal-Oriented Interactive Joint Source-Channel Coding for Lightweight Semantic Communication",
+    "authors": [
+      "Xupeng Niu",
+      "Long Tan",
+      "Jun Wu",
+      "Weijie Yuan",
+      "Tony Q. S. Quek"
+    ],
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "year": 2025,
+    "volume": "74",
+    "issue": "10",
+    "pages": "16516-16520",
+    "doi": "10.1109/tvt.2025.3568851",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/10995230/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ftvt.2025.3568851",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2025,
+      10
+    ],
+    "originalSiteTitle": "Multimodal-Oriented Interactive Joint Source-Channel Coding for Lightweight Semantic Communication",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE TVT",
+    "id": "publication-23",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Predictive Beamforming for Vehicles With Complex Behaviors in ISAC Systems: A Deep Learning Approach",
+    "authors": [
+      "Xiaoqi Zhang",
+      "Weijie Yuan",
+      "Chang Liu",
+      "Jun Wu",
+      "Derrick Wing Kwan Ng"
+    ],
+    "venue": "IEEE Journal of Selected Topics in Signal Processing",
+    "year": 2024,
+    "volume": "18",
+    "issue": "5",
+    "pages": "828-841",
+    "doi": "10.1109/jstsp.2024.3405856",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/10543024/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fjstsp.2024.3405856",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2024,
+      7
+    ],
+    "originalSiteTitle": "Predictive Beamforming for Vehicles With Complex Behaviors in ISAC Systems: A Deep Learning Approach",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE JSTSP",
+    "id": "publication-24",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Reconfigurable-Intelligent-Surface-Aided OTFS: Transmission Scheme and Channel Estimation",
+    "authors": [
+      "Zhongjie Li",
+      "Weijie Yuan",
+      "Buyi Li",
+      "Jun Wu",
+      "Changsheng You",
+      "Fanke Meng"
+    ],
+    "venue": "IEEE Internet of Things Journal",
+    "year": 2023,
+    "volume": "10",
+    "issue": "22",
+    "pages": "19518-19532",
+    "doi": "10.1109/jiot.2023.3270335",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/10107978/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fjiot.2023.3270335",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2023,
+      11,
+      15
+    ],
+    "originalSiteTitle": "Reconfigurable-Intelligent-Surface-Aided OTFS: Transmission Scheme and Channel Estimation",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE IoTJ",
+    "id": "publication-25",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "OTFS-Assisted Wireless Control in UAV Networks with Finite Blocklength Transmission",
+    "authors": [
+      "Haijia Jin",
+      "Jun Wu",
+      "Weijie Yuan",
+      "Yuye Shi",
+      "Fan Liu",
+      "Le Zheng",
+      "Yi Gong"
+    ],
+    "venue": "2025 IEEE Wireless Communications and Networking Conference (WCNC)",
+    "year": 2025,
+    "volume": null,
+    "issue": null,
+    "pages": "01-06",
+    "doi": "10.1109/wcnc61545.2025.10978356",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/10978356/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fwcnc61545.2025.10978356"
+    ],
+    "firstAuthor": false,
+    "type": "conference",
+    "publicationDate": [
+      2025,
+      3,
+      24
+    ],
+    "originalSiteTitle": "OTFS-Assisted Wireless Control in UAV Networks with Finite Blocklength Transmission",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE WCNC",
+    "id": "publication-26",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "ISCS: An Interactive Multimodal Semantic Communication Architecture",
+    "authors": [
+      "Xupeng Niu",
+      "Weijie Yuan",
+      "Long Tan",
+      "Jun Wu"
+    ],
+    "venue": "2025 IEEE/CIC International Conference on Communications in China (ICCC Workshops)",
+    "year": 2025,
+    "volume": null,
+    "issue": null,
+    "pages": "1-6",
+    "doi": "10.1109/icccworkshops67136.2025.11148150",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/11148150/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ficccworkshops67136.2025.11148150"
+    ],
+    "firstAuthor": false,
+    "type": "conference",
+    "publicationDate": [
+      2025,
+      8,
+      10
+    ],
+    "originalSiteTitle": "ISCS: An Interactive Multimodal Semantic Communication Architecture",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE ICCC Wkshps",
+    "id": "publication-27",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Reinforcement Learning-Based Car-Following Control for Autonomous Vehicles with OTFS",
+    "authors": [
+      "Yulin Liu",
+      "Yuye Shi",
+      "Xiaoqi Zhang",
+      "Jun Wu",
+      "Songyuan Yang"
+    ],
+    "venue": "2024 IEEE Wireless Communications and Networking Conference (WCNC)",
+    "year": 2024,
+    "volume": null,
+    "issue": null,
+    "pages": "1-6",
+    "doi": "10.1109/wcnc57260.2024.10570722",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/10570722/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fwcnc57260.2024.10570722"
+    ],
+    "firstAuthor": false,
+    "type": "conference",
+    "publicationDate": [
+      2024,
+      4,
+      21
+    ],
+    "originalSiteTitle": "Reinforcement Learning-Based Car-Following Control for Autonomous Vehicles with OTFS",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE WCNC",
+    "id": "publication-28",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Deep Learning-Based Cramér-Rao Bound Optimization for Integrated Sensing and Communication in Vehicular Networks",
+    "authors": [
+      "Xiaoqi Zhang",
+      "Weijie Yuan",
+      "Chang Liu",
+      "Jun Wu",
+      "Zhongjie Li"
+    ],
+    "venue": "2023 IEEE 24th International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)",
+    "year": 2023,
+    "volume": null,
+    "issue": null,
+    "pages": "646-650",
+    "doi": "10.1109/spawc53906.2023.10304366",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/10304366/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fspawc53906.2023.10304366"
+    ],
+    "firstAuthor": false,
+    "type": "conference",
+    "publicationDate": [
+      2023,
+      9,
+      25
+    ],
+    "originalSiteTitle": "Deep Learning-Based Cramér-Rao Bound Optimization for Integrated Sensing and Communication in Vehicular Networks",
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE SPAWC",
+    "id": "publication-29",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Agentic Low-Altitude Wireless Networks: Fundamentals, Design, and Future Directions",
+    "authors": [
+      "Haijia Jin",
+      "Xiaoqi Zhang",
+      "Weijie Yuan",
+      "Jiacheng Wang",
+      "Jun Wu",
+      "Xianbin Wang",
+      "Rahim Tafazolli",
+      "Mohamed-Slim Alouini",
+      "Sumei Sun",
+      "Shui Yu",
+      "Dong In Kim",
+      "Abbas Jamalipour",
+      "Xuemin Shen"
+    ],
+    "venue": "IEEE Transactions on Cognitive Communications and Networking",
+    "year": 2026,
+    "volume": "12",
+    "issue": null,
+    "pages": "12543-12566",
+    "doi": "10.1109/tccn.2026.3737901",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/11713473/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ftccn.2026.3737901",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2026
+    ],
+    "originalSiteTitle": null,
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE TCCN",
+    "id": "publication-30",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Toward Intelligent IoT Services: A Generative AI-Assisted Semantic-Aware Framework",
+    "authors": [
+      "Xupeng Niu",
+      "Weijie Yuan",
+      "Long Tan",
+      "Jun Wu",
+      "Xianbin Wang"
+    ],
+    "venue": "IEEE Transactions on Cognitive Communications and Networking",
+    "year": 2026,
+    "volume": "12",
+    "issue": null,
+    "pages": "6988-7000",
+    "doi": "10.1109/tccn.2026.3677174",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/11455551/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Ftccn.2026.3677174",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2026
+    ],
+    "originalSiteTitle": null,
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE TCCN",
+    "id": "publication-31",
+    "verifiedOn": "2026-10-15"
+  },
+  {
+    "title": "Deep-Learning-Based Compensation Mechanism for UAV Sensing via OTFS Signaling",
+    "authors": [
+      "Ziyu Yan",
+      "Weijie Yuan",
+      "Xiaoqi Zhang",
+      "Chang Liu",
+      "Jun Wu",
+      "Tony Q. S. Quek"
+    ],
+    "venue": "IEEE Internet of Things Journal",
+    "year": 2025,
+    "volume": "12",
+    "issue": "15",
+    "pages": "29797-29810",
+    "doi": "10.1109/jiot.2025.3571754",
+    "arxiv": null,
+    "url": "https://ieeexplore.ieee.org/document/11008363/",
+    "pdf": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1109%2Fjiot.2025.3571754",
+      "https://orcid.org/0000-0001-9424-1056"
+    ],
+    "firstAuthor": false,
+    "type": "journal",
+    "publicationDate": [
+      2025,
+      8,
+      1
+    ],
+    "originalSiteTitle": null,
+    "articleNumber": null,
+    "summary": null,
+    "shortVenue": "IEEE IoTJ",
+    "id": "publication-32",
+    "verifiedOn": "2026-10-15"
+  }
+]

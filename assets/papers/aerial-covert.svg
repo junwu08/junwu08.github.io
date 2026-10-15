@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img">
+<defs>
+<marker id="blueArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6898bc"/></marker>
+<marker id="orangeArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#c88b50"/></marker>
+<g id="drone" fill="white" stroke="currentColor" stroke-width="2.5"><path d="M-21-10L21 10M-21 10L21-10"/><rect x="-10" y="-6" width="20" height="12" rx="4" fill="currentColor"/><ellipse cx="-25" cy="-12" rx="13" ry="5"/><ellipse cx="25" cy="-12" rx="13" ry="5"/><ellipse cx="-25" cy="12" rx="13" ry="5"/><ellipse cx="25" cy="12" rx="13" ry="5"/></g>
+<g id="person" stroke="currentColor" stroke-width="4" stroke-linecap="round" fill="currentColor"><circle cy="-14" r="5" stroke="none"/><path d="M0-4V11M-10 3L0-3L10 3M0 11L-7 23M0 11L7 23" fill="none"/></g>
+</defs>
+<rect width="600" height="360" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#3f5262} .title{font-size:18px;font-weight:600}.label{font-size:14px}.small{font-size:12px}.box{fill:#f0f6fa;stroke:#cadce8;stroke-width:1.2}</style>
+<title>Conceptual illustration of energy-efficient covert communications with aerial networked ISAC</title>
+<text x="300" y="27" text-anchor="middle" class="title">Cooperative covert aerial communications</text>
+<rect x="18" y="43" width="564" height="195" rx="8" fill="#fafcfd" stroke="#e1e8ed"/>
+<g color="#5a90b8"><use href="#drone" x="105" y="88"/><use href="#drone" x="270" y="88"/></g><use href="#drone" x="473" y="88" color="#c18a58"/>
+<text x="105" y="63" text-anchor="middle" class="label">Information UAV</text><text x="270" y="63" text-anchor="middle" class="label">Information UAV</text><text x="473" y="63" text-anchor="middle" class="label">Jammer UAV</text>
+<path d="M105 114V174M270 114L245 174" stroke="#74a3c6" stroke-width="2.3" marker-end="url(#blueArrow)"/>
+<text x="124" y="148" class="small">Downlink</text>
+<path d="M473 114V173" stroke="#c9945f" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#orangeArrow)"/>
+<text x="486" y="148" class="small">Jamming</text>
+<path d="M300 112L449 178" stroke="#8ba9bc" stroke-width="1.8" stroke-dasharray="3 4" marker-start="url(#blueArrow)" marker-end="url(#blueArrow)"/>
+<text x="348" y="135" class="small">ISAC sensing</text>
+<g color="#738695"><use href="#person" x="105" y="191"/><use href="#person" x="245" y="191"/></g><use href="#person" x="473" y="191" color="#bd8b5f"/>
+<text x="176" y="230" text-anchor="middle" class="label">Ground users</text><text x="471" y="230" text-anchor="middle" class="label">Mobile warden (Willie)</text>
+<path d="M368 212Q409 201 434 213T540 211" stroke="#cfaa85" stroke-width="1.8" fill="none" stroke-dasharray="4 4" marker-end="url(#orangeArrow)"/>
+<rect x="22" y="255" width="162" height="56" rx="6" class="box"/><text x="103" y="277" text-anchor="middle" class="label">UKF tracking</text><text x="103" y="296" text-anchor="middle" class="small">Predict warden motion</text>
+<path d="M190 283H217" stroke="#6898bc" stroke-width="2" marker-end="url(#blueArrow)"/>
+<rect x="225" y="255" width="353" height="56" rx="6" class="box"/><text x="402" y="275" text-anchor="middle" class="label">Energy-efficient joint optimization</text><text x="402" y="294" text-anchor="middle" class="small">Roles · Scheduling · Power · Trajectories</text>
+<text x="300" y="344" text-anchor="middle" font-size="12" fill="#7e8a94">Conceptual illustration</text>
+</svg>
