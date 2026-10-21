@@ -9,3 +9,4 @@
 *.md text eol=lf
 *.webp binary
 *.jpg binary
+*.ics -text
